@@ -1,3 +1,5 @@
+'use client'
+import '../app/luxarybook.theme.css'
 export default function Home() {
   return (
     <>

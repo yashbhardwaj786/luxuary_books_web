@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Perpetua Titling MT';
+    src: url('fonts/pertibd.ttf') format('ttf');
+}
+
+:root {
+    --brand-font-family: 'Perpetua Titling MT';
+
+    --brand-font-weight-light: 300;
+    --brand-font-weight-roman: 400;
+    --brand-font-weight-medium: 500;
+    --brand-font-weight-dark: 600;
+    --brand-font-weight-heavy: 800;
+    --brand-font-weight-black: 900;
+
+    --brand-button-small-height: 30px;
+    --brand-button-small-size: 12px;
+    --brand-button-medium-height: 40px;
+    --brand-button-medium-size: 14px;
+    --brand-button-large-height: 50px;
+    --brand-button-large-size: 16px;
+    --brand-button-extra-large-height: 60px;
+    --brand-button-extra-large-size: 20px;
+
+    --brand-mobile-max-width: 767px;
+
+    --brand-primary-white-color: rgba(255, 255, 255, 1);
+    --brand-navbar-background-color: rgba(34, 33, 36, 1)
+
+}
