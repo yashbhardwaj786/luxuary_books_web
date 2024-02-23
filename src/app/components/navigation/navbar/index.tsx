@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import Button from "./Button";
@@ -8,7 +8,7 @@ import {StyledNavigationContainer, StyledNavItem} from './style'
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const pathname = usePathname();
-  console.log('hh yashal Current pathname:', {pathname})
+
   return (
     <>
       <StyledNavigationContainer className="sticky top-0">
