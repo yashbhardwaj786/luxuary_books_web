@@ -1,42 +1,49 @@
 import React, { useCallback } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
-import Button from "./Button";
 import { usePathname } from 'next/navigation';
-import {StyledNavigationContainer, StyledNavItem} from './style'
+import styles from './navbar.module.css';
+
 
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const pathname = usePathname();
 
+
   return (
     <>
-      <StyledNavigationContainer className="sticky top-0">
+      <nav className={styles.navbar}>
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
             <ul className="hidden md:flex gap-x-16">
-              <li className={pathname === '/aboutus' ? 'active' : ''}>
-                <Link href="/aboutus">
-                  <StyledNavItem>About Us</StyledNavItem>
-                </Link>
-              </li>
-              <li className={pathname === '/shop' ? 'active' : ''}>
-                <Link href="/shop">
-                  <StyledNavItem>Shop</StyledNavItem>
-                </Link>
-              </li>
-              <li className={pathname === '/contactus' ? 'active' : ''}>
-                <Link href="/contactus">
-                  <StyledNavItem>Contact Us</StyledNavItem>
-                </Link>
-              </li>
+              <NavItem href="/aboutus" isActive={pathname === '/aboutus'}>
+                About Us
+              </NavItem>
+              <NavItem href="/shop" isActive={pathname === '/shop'}>
+                Shop
+              </NavItem>
+              <NavItem href="/contactus" isActive={pathname === '/contactus'}>
+                Contact Us
+              </NavItem>
             </ul>
           </div>
         </div>
-      </StyledNavigationContainer>
+      </nav>
     </>
   );
 };
 
+function NavItem({ href, isActive, children }) {
+  return (
+    <li>
+      <Link href={href}>
+        <p style={{ fontFamily: isActive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
+      </Link>
+    </li>
+  );
+}
+
+
 export default Navbar;
+

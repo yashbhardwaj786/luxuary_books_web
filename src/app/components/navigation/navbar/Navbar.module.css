@@ -1,0 +1,28 @@
+.navbar {
+    background-color: var(--brand-navbar-background-color);
+    color: #fff;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.paragraph {
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+}
+
+.paragraph:active {
+    font-weight: bold;
+}

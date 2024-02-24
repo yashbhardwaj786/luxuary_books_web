@@ -1,6 +1,10 @@
 @font-face {
-    font-family: 'Perpetua Titling MT';
-    src: url('fonts/pertibd.ttf') format('ttf');
+    font-family: 'primary font';
+    src: url('../../public/fonts/pertili.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'primary font bold';
+    src: url('../../public/fonts/perti-bold.ttf') format('truetype');
 }
 
 :root {

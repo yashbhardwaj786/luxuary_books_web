@@ -4,11 +4,12 @@ import {StyledFooter } from './style'
 
 const Footer = () => {
     return (
-      <StyledFooter>
+      <StyledFooter className='bg-black'>
         <p>This is the footer.</p>
       </StyledFooter>
     );
   };
-  
+
+
   export default Footer;
   
