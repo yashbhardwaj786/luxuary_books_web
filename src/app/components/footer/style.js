@@ -27,21 +27,41 @@ export const StyledFooter = styled.footer`
     align-self: center;
     display: flex;
     flex-direction: row;
-    margin-top: 24px;
+    margin-top: 21px;
+    @media (min-width: 768px) {
+      margin-top: 24px;
+    }
   }
 
   .social-icon {
-    margin-right: 32px;
+    margin-right: 17px;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      margin-right: 32px;
+    }
   }
 `;
 
 export const MenuItem = styled.p`
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 9.46px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-family: ${(props) =>
+    props.isActive
+      ? 'primary font bold, sans-serif'
+      : 'primary font, sans-serif'};
+
+  @media (min-width: 768px) {
     font-size: 16px;
     font-weight: 300;
     line-height: 18.93px;
     margin-right: 70px;
+    cursor: pointer;
     font-family: ${(props) =>
-      props.isActive
-        ? 'primary font bold, sans-serif'
-        : 'primary font, sans-serif'};
+    props.isActive
+      ? 'primary font bold, sans-serif'
+      : 'primary font, sans-serif'};
+  }
 `;
