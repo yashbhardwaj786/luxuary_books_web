@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
+    position: sticky;
+    top: 0;
 }
 
 .ul {

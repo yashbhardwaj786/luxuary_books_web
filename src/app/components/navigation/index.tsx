@@ -27,7 +27,6 @@ const Navigation = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-  console.log('hh yashal isMobile', isMobile)
   return (
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />

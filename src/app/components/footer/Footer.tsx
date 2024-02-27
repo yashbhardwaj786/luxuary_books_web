@@ -28,6 +28,7 @@ const Footer = () => {
       mediaQuery.removeListener(handleResize);
     };
   }, []);
+
   return (
     <StyledFooter>
       <img className="image"
@@ -52,16 +53,6 @@ const Footer = () => {
                 Contact Us
               </NavItem>
             </li>
-            <li>
-              <NavItem href="/casestudies" isActive={pathname === '/casestudies'}>
-                Case studies
-              </NavItem>
-            </li>
-            <li>
-              <NavItem href="/privacypolicy" isActive={pathname === '/privacypolicy'}>
-                privacy policy
-              </NavItem>
-            </li>
           </ul>
         )
 
@@ -76,12 +67,6 @@ const Footer = () => {
               <NavItem href="/contactus" isActive={pathname === '/contactus'}>
                 Contact Us
               </NavItem>
-              <NavItem href="/casestudies" isActive={pathname === '/casestudies'}>
-                Case studies
-              </NavItem>
-              <NavItem href="/privacypolicy" isActive={pathname === '/privacypolicy'}>
-                privacy policy
-              </NavItem>
             </ul>
           )}
 
@@ -89,16 +74,28 @@ const Footer = () => {
       </div>
       <div className='image-container'>
         <div className='social-icon'>
-          <Facebook isMobile={isMobile}/>
+          <a href='https://www.facebook.com/profile.php?id=100063830482431'
+            target="_blank">
+            <Facebook isMobile={isMobile} />
+          </a>
         </div>
         <div className='social-icon'>
-          <Twitter isMobile={isMobile}/>
+          <a href='https://twitter.com/YashBhardwaj274'
+            target="_blank">
+            <Twitter isMobile={isMobile} />
+          </a>
         </div>
         <div className='social-icon'>
-          <Linkedin isMobile={isMobile}/>
+          <a href='https://www.linkedin.com/in/yash-bhardwaj/'
+            target="_blank">
+            <Linkedin isMobile={isMobile} />
+          </a>
         </div>
         <div className='social-icon'>
-          <Insta isMobile={isMobile}/>
+          <a href='https://www.instagram.com/warriorsexam'
+            target='_blank'>
+            <Insta isMobile={isMobile} />
+          </a>
         </div>
       </div>
     </StyledFooter>

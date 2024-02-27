@@ -5,7 +5,7 @@ export const HomeData = {
 	result: {
 		bannerData: [
 			{
-				bookImageUrl: "somebookurl",
+				bookImageUrl: '"/images/Layer1.png"',
 				title: "EXCELLING IN DIGITAL TRANSGORMATION",
 				description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
 				cta: {
@@ -14,7 +14,7 @@ export const HomeData = {
 				}
 			},
 			{
-				bookImage: "somebookurl",
+				bookImage: '"/images/Layer1.png"',
 				title: "EXCELLING IN DIGITAL TRANSGORMATION",
 				description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
 				cta: {

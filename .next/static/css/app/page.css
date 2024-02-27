@@ -9,6 +9,10 @@
     font-family: 'primary font bold';
     src: url(/_next/static/media/perti-bold.b4e2d628.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Gayathri font';
+    src: url(/_next/static/media/gayathri-regular.352f4d13.ttf) format('truetype');
+}
 
 :root {
     --brand-font-family: 'Perpetua Titling MT';
@@ -17,6 +21,7 @@
     --brand-font-weight-roman: 400;
     --brand-font-weight-medium: 500;
     --brand-font-weight-dark: 600;
+    --brand-font-weight-medium-dark: 700;
     --brand-font-weight-heavy: 800;
     --brand-font-weight-black: 900;
 
@@ -32,6 +37,11 @@
     --brand-mobile-max-width: 767px;
 
     --brand-primary-white-color: rgba(255, 255, 255, 1);
-    --brand-navbar-background-color: rgba(34, 33, 36, 1)
+    --brand-navbar-background-color: rgba(34, 33, 36, 1);
+    --book-title-color: rgba(34, 33, 36, 1);
+    --book-subtitle-color: rgba(45, 45, 45, 1);
+    --brand-yellow-color: rgba(251, 234, 85, 1);
+    
 
+    
 }

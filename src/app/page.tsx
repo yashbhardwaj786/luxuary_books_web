@@ -1,17 +1,14 @@
 'use client'
 import '../app/luxarybook.theme.css'
+import HomeLandingPage from './components/home/index'
+import {HomePageContainer} from './home.page'
 
 export default function Home() {
   return (
     <>
-      <div className="container mx-auto px-4">
-        <h1>Hello Wolrd India</h1>
-        <p>This is a content to make our page longer</p>
-        <div className="w-full h-screen bg-green-300"></div>
-        <p>
-          Lorem Ipsum is simply dummy text ...
-        </p>
-      </div>
+      <HomePageContainer >
+        <HomeLandingPage/>
+      </HomePageContainer>
     </>
   );
 }

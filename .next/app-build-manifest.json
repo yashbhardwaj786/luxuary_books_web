@@ -12,20 +12,30 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/aboutus/page": [
+    "/privacypolicy/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/aboutus/page.js"
+      "static/chunks/app/privacypolicy/page.js"
+    ],
+    "/contactus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contactus/page.js"
     ],
     "/shop/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/shop/page.js"
     ],
-    "/contactus/page": [
+    "/casestudies/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contactus/page.js"
+      "static/chunks/app/casestudies/page.js"
+    ],
+    "/aboutus/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aboutus/page.js"
     ]
   }
 }
