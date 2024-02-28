@@ -10,7 +10,7 @@ export default function BannerContent({bannerData = []}) {
 
     return (
 
-        <StyledHappyCustomerWrapper>
+        <StyledHappyCustomerWrapper isMobile={isMobile}>
             {
                 isMobile ? (
                 <CustomCarousel scrollWidth={1} scrollDuration={100}>

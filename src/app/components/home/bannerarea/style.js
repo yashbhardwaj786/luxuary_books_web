@@ -3,7 +3,8 @@ export const StyledHappyCustomerWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url('/images/homepage_bg.png');
+  background-image:  ${(props) =>
+    props.isMobile  ? "url('/images/homepage_bg_mobile.png')" : "url('/images/homepage_bg.png')"}; 
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /* Center horizontally */
@@ -19,7 +20,9 @@ export const StyledHappyCustomerWrapper = styled.div`
 
 export const ItemContainer = styled.div`
 
-    margin-left: 10px;
+    width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex !important;
     flex-direction: column ;
     justify-content: center;
@@ -28,18 +31,16 @@ export const ItemContainer = styled.div`
     .book__img img {
       object-fit: contain;
       border-radius: 1.25rem;
-      width: 100%;
-      height: 130px;
+      width: 300px;
       align-items: center;
       justify-content: center;
-      margin-bottom: 10px;
+      margin-top: 50px;
     }
     .book-title {
       color: var(--book-title-color);
       font-size: 12px;
       line-height: 14.44px;
-      font-family: 'primary font', sans-serif;
-      font-weight: var(--brand-font-weight-medium-dark);
+      font-family: 'primary font bold', sans-serif;
       margin-top: 10px;
 
     }
@@ -60,30 +61,30 @@ export const ItemContainer = styled.div`
     }
 
     .button-container {
+      display: flex;
       background: var(--brand-navbar-background-color);
+      width: 119px;
       border-radius: 24.5px;
-      padding-top: 15px;
-      padding-bottom: 10px;
-      padding-left: 30px;
-      padding-right: 30px;
-      margin-bottom: 50px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
     }
 
     .button-text {
       color: var(--brand-yellow-color);
-      font-size: 16px;
-      line-height: 19.25px;
-      font-family: 'primary font', sans-serif;
-      font-weight: var(--brand-font-weight-medium-dark);
-    
+      font-size: 8px;
+      text-align: center;
+      margin-left: 16px;
+      font-family: 'primary font bold', sans-serif;
     }
 
     @media (min-width: 768px) {
+      padding: 50px; 
 
       .book__img img {
         align-items: center;
         justify-content: center;
-        margin-top: 80px;
+        margin-top: 25px;
         height: 250px;
         width: 690px;
       }
@@ -103,7 +104,21 @@ export const ItemContainer = styled.div`
         margin-left: 215px;
         text-align: center;
         text-transform: capitalize;
-        margin-bottom: 15px;
+      }
+
+      .button-container {
+        width: 243px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 34px;
+        padding-right: 34px;
+        margin-bottom: 50px;
+      }
+
+      .button-text {
+        font-size: 16px;
+        line-height: 19.25px;
+        margin-left: 0px;
       }
 
     }
