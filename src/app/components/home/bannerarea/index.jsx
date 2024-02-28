@@ -2,26 +2,11 @@ import React, {useEffect, useState } from "react";
 import Slider from "../Slider/index";
 import { StyledHappyCustomerWrapper, ItemContainer } from './style'
 import CustomCarousel from '../../CustomCarousel/index'
+import {commonMethod} from '../../../utils/Utility'
 
 export default function BannerContent({bannerData = []}) {
 
-
-    const [isMobile, setIsMobile] = useState(false);
-
-    useEffect(() => {
-        const mediaQuery = window.matchMedia('(max-width: 768px)'); // Adjust the breakpoint as needed
-        setIsMobile(mediaQuery.matches);
-    
-        const handleResize = () => {
-          setIsMobile(mediaQuery.matches);
-        };
-    
-        mediaQuery.addListener(handleResize);
-    
-        return () => {
-          mediaQuery.removeListener(handleResize);
-        };
-      }, []);
+    const isMobile = commonMethod();
 
     return (
 
@@ -32,7 +17,7 @@ export default function BannerContent({bannerData = []}) {
                     {bannerData.map((banner, index) => {
                             if (!banner) return null
                             const { bookImage = '', title = '', description = '', cta = {} } = banner
-                            const {text = '', url = ''} = cta
+                            const {text = '', link = ''} = cta
                             const bookimg = '/images/Layer1.png'
                             return (
                                 <ItemContainer key={index}>

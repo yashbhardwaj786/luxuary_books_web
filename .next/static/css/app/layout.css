@@ -681,9 +681,6 @@ video {
 .h-full {
   height: 100%;
 }
-.h-screen {
-  height: 100vh;
-}
 .w-full {
   width: 100%;
 }
@@ -714,10 +711,6 @@ video {
 }
 .border {
   border-width: 1px;
-}
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 .bg-white {
   --tw-bg-opacity: 1;

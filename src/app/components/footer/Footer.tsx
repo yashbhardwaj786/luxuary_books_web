@@ -1,6 +1,6 @@
 // components/Footer.tsx
 "use client";
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { StyledFooter, MenuItem } from './style'
 import Link from "next/link";
 import { usePathname } from 'next/navigation';
@@ -9,25 +9,12 @@ import Twitter from './twitter'
 import Linkedin from './Linkedin'
 import Insta from './Insta'
 import { Console } from "console";
+import {commonMethod} from '../../utils/Utility'
 
 const Footer = () => {
   const pathname = usePathname();
-  const [isMobile, setIsMobile] = useState(false);
+  const isMobile = commonMethod();
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(max-width: 768px)'); // Adjust the breakpoint as needed
-    setIsMobile(mediaQuery.matches);
-
-    const handleResize = () => {
-      setIsMobile(mediaQuery.matches);
-    };
-
-    mediaQuery.addListener(handleResize);
-
-    return () => {
-      mediaQuery.removeListener(handleResize);
-    };
-  }, []);
 
   return (
     <StyledFooter>

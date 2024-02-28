@@ -26,7 +26,7 @@ function PrevArrow(props) {
       </g>
       <path
         d="M54.5 31L45.5 40L54.5 49"
-        stroke-width="4"
+        strokeWidth="4"
         stroke-linecap="round"
         stroke-linejoin="round"
       />

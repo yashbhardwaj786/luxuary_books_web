@@ -20,7 +20,7 @@ function NextArrow(props) {
       </g>
       <path
         d="M45.5 49L54.5 40L45.5 31"
-        stroke-width="4"
+        strokeWidth="4"
         stroke-linecap="round"
         stroke-linejoin="round"
       />
