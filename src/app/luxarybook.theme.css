@@ -3,12 +3,24 @@
     src: url('../../public/fonts/pertili.ttf') format('truetype');
 }
 @font-face {
+    font-family: 'primary font light2';
+    src: url('../../public/fonts/perpetuatitlingmt-light2.ttf') format('truetype');
+}
+@font-face {
     font-family: 'primary font bold';
     src: url('../../public/fonts/perti-bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Gayathri font';
     src: url('../../public/fonts/gayathri-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gayathri font bold';
+    src: url('../../public/fonts/gayathri-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Gayathri font thin';
+    src: url('../../public/fonts/gayathri-thin.ttf') format('truetype');
 }
 
 :root {

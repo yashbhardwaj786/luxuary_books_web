@@ -6,12 +6,24 @@
     src: url(/_next/static/media/pertili.8a7bc3c6.ttf) format('truetype');
 }
 @font-face {
+    font-family: 'primary font light2';
+    src: url(/_next/static/media/perpetuatitlingmt-light2.9002220d.ttf) format('truetype');
+}
+@font-face {
     font-family: 'primary font bold';
     src: url(/_next/static/media/perti-bold.b4e2d628.ttf) format('truetype');
 }
 @font-face {
     font-family: 'Gayathri font';
     src: url(/_next/static/media/gayathri-regular.352f4d13.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Gayathri font bold';
+    src: url(/_next/static/media/gayathri-bold.1bc4e274.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Gayathri font thin';
+    src: url(/_next/static/media/gayathri-thin.48667910.ttf) format('truetype');
 }
 
 :root {
