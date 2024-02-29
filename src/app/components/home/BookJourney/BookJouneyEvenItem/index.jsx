@@ -8,7 +8,6 @@ export default function BookJourneyEvenItem({journey = {}}) {
         <BookJourneyEvenItemWrapper>
             <img className="book-item-image" src="/images/bookimg_odd.png" />
 
-
             <div className="book-details-container">
                 <label className="book-journey-title">{title}</label>
                 <label className="book-journey-subtitle">{description}</label>
@@ -16,7 +15,6 @@ export default function BookJourneyEvenItem({journey = {}}) {
                     <label className="book-journey-button-text">{text}</label>
                 </div>
             </div>
-
 
         </BookJourneyEvenItemWrapper>
     )

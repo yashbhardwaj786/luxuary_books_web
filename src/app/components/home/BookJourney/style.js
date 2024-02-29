@@ -3,15 +3,24 @@ import styled from "styled-components";
 export const BookJouneyWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-repeat: repeat;
-    background-image: url('/images/background_list.png');
+    background-image: ${(props) =>
+    props.isMobile  ? "url('/images/background_list_mobile.png')" : "url('/images/background_list.png')"}; 
 
     .bgContainer{
         display: flex;
         flex-direction: column;
-        background-image: url('/images/fullwave.svg');
+        background-image: url('/images/FullWaveMobile.svg');
         background-repeat: repeat-y;
-        margin-left: 70px;
+    }
+
+    @media (min-width: 768px) {
+        .bgContainer{
+            display: flex;
+            background-image: url('/images/fullwave.svg');
+            margin-left: 70px;
+            height: fit-content;
+        }
+    
     }
 `;
