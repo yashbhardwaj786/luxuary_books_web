@@ -1,7 +1,11 @@
+'use client'
 import React from "react";
+import ContactUsLandingPage from '../components/screens/contactus/index'
 
-const About = () => {
-  return <div>Contact us</div>;
+const ContactUs = () => {
+  return (
+  <ContactUsLandingPage/>
+  )
 };
 
-export default About;
+export default ContactUs;

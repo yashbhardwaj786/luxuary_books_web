@@ -11,6 +11,12 @@ import Insta from './Insta'
 import { Console } from "console";
 import {commonMethod} from '../../utils/Utility'
 
+interface NavItemProps {
+  href: string; // Explicitly define the type as string
+  isActive?: boolean;
+  children: React.ReactNode;
+}
+
 const Footer = () => {
   const pathname = usePathname();
   const isMobile = commonMethod();
@@ -89,7 +95,7 @@ const Footer = () => {
   );
 };
 
-function NavItem({ href, isActive, children }) {
+function NavItem({ href, isActive, children }: NavItemProps) {
   return (
     <li>
       <Link href={href}>
