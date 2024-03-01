@@ -1,6 +1,7 @@
 import React from "react";
 import { ContactUsWrapper } from './style'
 import AuthorImage from './AboutAuthor/index'
+import ProfessionalInquiriesWrapper from './professionalInquaries/index'
 
 export default function ContactUsLandingPage(){
 
@@ -8,6 +9,7 @@ export default function ContactUsLandingPage(){
         <ContactUsWrapper>
 
             <AuthorImage/>
+            <ProfessionalInquiriesWrapper/>
 
         </ContactUsWrapper>
     )

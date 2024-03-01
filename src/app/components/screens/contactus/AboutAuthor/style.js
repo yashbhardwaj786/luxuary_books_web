@@ -27,13 +27,13 @@ export const AuthorImageWrapper =  styled.div`
     }
 
     .title-text {
-        font-size: 12;
+        font-size: 12px;
         font-family: 'primary font bold', sans-serif;
         color: var(--brand-navbar-background-color);
     }
 
     .description-text {
-        font-size: 8;
+        font-size: 8px;
         font-family: 'Gayathri font', sans-serif;
         color: var(--book-subtitle-color);
         text-align: center;
@@ -59,11 +59,11 @@ export const AuthorImageWrapper =  styled.div`
         }
 
         .title-text {
-            font-size: 25;
+            font-size: 25px;
         }
 
         .description-text {
-            font-size: 16;
+            font-size: 16px;
             margin: 16px 242px 16px 242px;
         }
 
