@@ -13,7 +13,7 @@ export const AuthorImageWrapper =  styled.div`
     }
     .bg-circle-container{
         display: flex;
-        margin: 45px 9px 0px 45px;
+        margin: 45px 8px 0px 8px;
     }
     
 

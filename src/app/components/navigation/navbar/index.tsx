@@ -13,7 +13,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
 
   return (
     <>
-      <nav className={styles.navbar} >
+      <nav className={styles.navbar}>
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <Logo />
