@@ -2,6 +2,7 @@ import React from "react";
 import { ContactUsWrapper } from './style';
 import AuthorImage from './AboutAuthor/index';
 import ProfessionalInquiriesWrapper from './professionalInquaries/index';
+import SendMessge from './sendmessage/index';
 import FAQs from './faqs/index';
 import {ContactusData} from '../../../contactus/Contactus.Data'
 
@@ -18,6 +19,7 @@ export default function ContactUsLandingPage(){
         <ContactUsWrapper>
 
             <AuthorImage imageUrl={imageUrl} title={title} description={description}/>
+            <SendMessge/>
             <FAQs faqs={faqs}/>
             <ProfessionalInquiriesWrapper professionalInquiries={professionalInquiries}/>
 
