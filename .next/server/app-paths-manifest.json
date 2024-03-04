@@ -1,3 +1,7 @@
 {
-  "/contactus/page": "app/contactus/page.js"
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js",
+  "/contactus/page": "app/contactus/page.js",
+  "/aboutus/page": "app/aboutus/page.js",
+  "/shop/page": "app/shop/page.js"
 }

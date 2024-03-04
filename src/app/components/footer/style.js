@@ -49,7 +49,7 @@ export const MenuItem = styled.p`
     margin-bottom: 10px;
     cursor: pointer;
     font-family: ${(props) =>
-    props.isActive
+    props.isactive
       ? 'primary font bold, sans-serif'
       : 'primary font, sans-serif'};
 
@@ -60,7 +60,7 @@ export const MenuItem = styled.p`
     margin-right: 70px;
     cursor: pointer;
     font-family: ${(props) =>
-    props.isActive
+    props.isactive
       ? 'primary font bold, sans-serif'
       : 'primary font, sans-serif'};
   }

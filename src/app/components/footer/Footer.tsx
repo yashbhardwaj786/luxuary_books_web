@@ -99,7 +99,7 @@ function NavItem({ href, isActive, children }: NavItemProps) {
   return (
     <li>
       <Link href={href}>
-        <MenuItem isActive={isActive}>{children}</MenuItem>
+        <MenuItem isactive={isActive}>{children}</MenuItem>
       </Link>
     </li>
   );

@@ -4,6 +4,7 @@ import UserIcon from './UserIcon';
 import EmailIcon from './EmailIcon';
 import PhoneIcon from './PhoneIcon'
 import MessageIcon from './MessageIcon'
+import { commonMethod } from "@/app/utils/Utility";
 
 
 
@@ -12,6 +13,7 @@ export default function SendMessge() {
     const [emailText, setEmailText] = useState('');
     const [phoneText, setPhoneText] = useState('');
     const [messageText, setMessageText] = useState('');
+    const isMobile = commonMethod()
 
     const Message = ({ width, height }) => {
         return (
@@ -43,9 +45,33 @@ export default function SendMessge() {
     return (
         <SendMessgerWrapper>
 
-            <div className="name-email-container">
+            { isMobile ? (
+            <>
+            <div className="name-container">
+                    <UserIcon isMobile={isMobile}/>
+                    <input
+                        className="name-input-text"
+                        type="text"
+                        value={nameText}
+                        placeholder="Name"
+                        onChange={handleChangeName} />
+            </div>
+
+            <div className="name-container">
+                    <EmailIcon isMobile={isMobile}/>
+                    <input
+                        className="name-input-text"
+                        type="text"
+                        value={emailText}
+                        placeholder="Email"
+                        onChange={handleChangeEmail} />
+                </div>
+            
+            </>
+            ) : (
+                <div className="name-email-container">
                 <div className="name-container">
-                    <UserIcon />
+                    <UserIcon isMobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -55,7 +81,7 @@ export default function SendMessge() {
                 </div>
 
                 <div className="email-container">
-                    <EmailIcon />
+                    <EmailIcon isMobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -65,9 +91,12 @@ export default function SendMessge() {
                 </div>
 
             </div>
+            )}
+
+            
 
             <div className="phone-container">
-                <PhoneIcon />
+                <PhoneIcon isMobile={isMobile}/>
                 <input
                     className="name-input-text"
                     type="text"
@@ -77,13 +106,16 @@ export default function SendMessge() {
             </div>
 
             <div className="message-container">
-                <Message />
+                <Message isMobile={isMobile}/>
                 <textarea
                     className="message-input-area"
                     type="text"
                     value={messageText}
                     placeholder="Message"
                     onChange={handleChangeMessage} />
+            </div>
+            <div className="button-container">
+                <label className="button-text">Send a message</label>
             </div>
 
         </SendMessgerWrapper>
