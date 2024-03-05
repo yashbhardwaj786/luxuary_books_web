@@ -1,12 +1,13 @@
 "use client"
 import React from "react";
 import '../../app/luxarybook.theme.css'
+import AboutUsLandingPage from '../components/screens/aboutus/index'
 
 const AboutUs = () => {
-  return (<div>
-    <h1>About Us</h1>
+  return (
+    <AboutUsLandingPage />
 
-  </div>)
+  )
 };
 
 export default AboutUs;

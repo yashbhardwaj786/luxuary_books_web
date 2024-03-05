@@ -696,18 +696,12 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-center {
-  justify-content: center;
-}
 .justify-between {
   justify-content: space-between;
 }
 .gap-x-16 {
   -moz-column-gap: 4rem;
        column-gap: 4rem;
-}
-.overflow-hidden {
-  overflow: hidden;
 }
 .rounded-lg {
   border-radius: 0.5rem;
@@ -717,10 +711,6 @@ video {
 }
 .bg-transparent {
   background-color: transparent;
-}
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 .p-5 {
   padding: 1.25rem;

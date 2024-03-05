@@ -3,9 +3,12 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { usePathname } from 'next/navigation';
 import styles from './navbar.module.css';
-import Button from "./Button";
 
-
+interface NavItemProps {
+  href: string;
+  isActive?: boolean;
+  children: React.ReactNode;
+}
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const pathname = usePathname();
@@ -52,7 +55,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
   );
 };
 
-function NavItem({ href, isActive, children }) {
+function NavItem({ href, isActive, children }: NavItemProps) {
   return (
     <li>
       <Link href={href}>

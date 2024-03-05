@@ -13,12 +13,12 @@ export const AuthorImageWrapper =  styled.div`
     }
     .bg-circle-container{
         display: flex;
-        margin: 45px 8px 0px 8px;
+        margin: 30px 8px 0px 8px;
     }
     
 
     .bg-author-image{
-        z-index: 999;
+        z-index: 99;
         position: absolute;
         height: 237px;
         width: 209px;
@@ -50,7 +50,7 @@ export const AuthorImageWrapper =  styled.div`
             margin: 82px 15px 0px 15px;
         }
         .bg-author-image{
-            z-index: 999;
+            z-index: 99;
             position: absolute;
             height: 430px;
             width: 380px;
