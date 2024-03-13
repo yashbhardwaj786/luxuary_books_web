@@ -1,7 +1,7 @@
-function Twitter({ isMobile = false }) {
+function Twitter({ ismobile = false }) {
     return (
         <>
-        {isMobile ? (
+        {ismobile ? (
             <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.356995" y="0.565689" width="17.4363" height="18.8039" stroke="#FBEA55" strokeWidth="0.341888"/>
             <path d="M10.1813 9.4723L14.2545 4.83929H13.2894L9.75104 8.86124L6.92699 4.83929H3.66903L7.94049 10.9217L3.66903 15.7797H4.63412L8.36849 11.5314L11.3515 15.7797H14.6094L10.1813 9.4723ZM8.85901 10.9751L8.42556 10.3691L4.98216 5.55124H6.46476L9.2445 9.44084L9.67612 10.0469L13.2889 15.1025H11.8064L8.85901 10.9751Z" fill="white"/>

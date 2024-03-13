@@ -5,18 +5,14 @@ export const HomeData = {
 	result: {
 		bannerData: [
 			{
-				bookImageUrl: '"/images/Layer1.png"',
-				title: "EXCELLING IN DIGITAL TRANSGORMATION",
-				description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+				bookImage: '/images/book_image.jpg',
 				cta: {
 					text: "Explore the book",
 					link: "someurltonavigatetheuser"
 				}
 			},
 			{
-				bookImage: '"/images/Layer1.png"',
-				title: "EXCELLING IN DIGITAL TRANSGORMATION",
-				description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+				bookImage: '/images/book_image.jpg',
 				cta: {
 					text: "Explore the book",
 					link: "someurltonavigatetheuser"
@@ -32,9 +28,9 @@ export const HomeData = {
 		},
 		bookJourney: [
 			{
-				bookImageUrl: "somebookurl",
-				title: "Percy Jackson and the Olympians",
-				description: "The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.",
+				bookImageUrl: "/images/Krupa.png",
+				title: "Krupa",
+				description: "Krupa, a feisty yogini, lives in a monastery (the Ashram) in the Himalayas.",
 				cta: {
 					text: "View Series",
 					link: "someurltonavigatetheuser"
@@ -42,9 +38,9 @@ export const HomeData = {
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
 			{
-				bookImageUrl: "somebookurl",
-				title: "Percy Jackson and the Olympians",
-				description: "The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.",
+				bookImageUrl: "/images/Swamiji.png",
+				title: "Swamiji",
+				description: " Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
 				cta: {
 					text: "View Series",
 					link: "someurltonavigatetheuser"
@@ -52,9 +48,9 @@ export const HomeData = {
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
 			{
-				bookImageUrl: "somebookurl",
-				title: "Percy Jackson and the Olympians",
-				description: "The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.",
+				bookImageUrl: "/images/tejas.png",
+				title: "Tejas",
+				description: "Tejas is the yogini who knows fire, she lives deep in the jungles.",
 				cta: {
 					text: "View Series",
 					link: "someurltonavigatetheuser"
@@ -62,9 +58,9 @@ export const HomeData = {
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
 			{
-				bookImageUrl: "somebookurl",
-				title: "Percy Jackson and the Olympians",
-				description: "The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.",
+				bookImageUrl: "/images/Callum_Bailey.png",
+				title: "Callum",
+				description: "Callum is a bright teenager from Glasgow, with a sunshine smile, he spreads happiness wherever he goes.",
 				cta: {
 					text: "View Series",
 					link: "someurltonavigatetheuser"
@@ -72,9 +68,29 @@ export const HomeData = {
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
 			{
-				bookImageUrl: "somebookurl",
-				title: "Percy Jackson and the Olympians",
-				description: "The series that started it all. Follow the demigod son of Poseidon and his friends on a quest that will have them meeting gods, battling monsters, and taking on the Titans from Greek mythology.",
+				bookImageUrl: "/images/Jaggu_baba.webp",
+				title: "Jaggu Baba",
+				description: "Jaggu Baba is an enigma, no one can understand what he really wants.",
+				cta: {
+					text: "View Series",
+					link: "someurltonavigatetheuser"
+				},
+				backgroundImageUrl: "somebackgroundImageURL"
+			},
+			{
+				bookImageUrl: "/images/book_bg_odd.png",
+				title: "London reeling",
+				description: "London reeling with relentless rains, this is where the story starts.",
+				cta: {
+					text: "View Series",
+					link: "someurltonavigatetheuser"
+				},
+				backgroundImageUrl: "somebackgroundImageURL"
+			},
+			{
+				bookImageUrl: "/images/book_bg_even.webp",
+				title: "The Himalayas",
+				description: "The Himalayas near Jispa.",
 				cta: {
 					text: "View Series",
 					link: "someurltonavigatetheuser"

@@ -14,7 +14,7 @@ export const AuthorImageWrapper =  styled.div`
     }
     .bg-circle-container{
         display: flex;
-        margin: 30px 8px 0px 8px;
+        margin: 30px 8px 30px 8px;
     }
     
 
@@ -23,7 +23,7 @@ export const AuthorImageWrapper =  styled.div`
         position: absolute;
         height: 237px;
         width: 209px;
-        margin-top: -45px;
+        margin-top: -50px;
         margin-left: -6px;
     }
 
@@ -51,15 +51,16 @@ export const AuthorImageWrapper =  styled.div`
         }
         .bg-circle-container{
             display: flex;
-            margin: 82px 15px 0px 15px;
+            margin: 60px 15px 26px 15px;
         }
         .bg-author-image{
             z-index: 99;
             position: absolute;
-            height: 430px;
+            height: fit-content; 
             width: 380px;
-            margin-top: -85px;
-            margin-left: -20px;
+            margin-top: -160px;
+            align-self: center;
+            margin-left: -10px;
         }
 
         .title-text {

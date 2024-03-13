@@ -9,11 +9,11 @@ import Twitter from './twitter'
 import Linkedin from './Linkedin'
 import Insta from './Insta'
 import { Console } from "console";
-import {commonMethod} from '../../utils/Utility'
+import { commonMethod } from '../../utils/Utility'
 
 interface NavItemProps {
   href: string; // Explicitly define the type as string
-  isActive?: boolean;
+  isactive?: boolean;
   children: React.ReactNode;
 }
 
@@ -32,17 +32,17 @@ const Footer = () => {
         {isMobile ? (
           <ul className="sidebar-nav text-center leading-relaxed text-xl">
             <li>
-              <NavItem href="/aboutus" isActive={pathname === '/aboutus'}>
+              <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
                 About Us
               </NavItem>
             </li>
             <li>
-              <NavItem href="/shop" isActive={pathname === '/shop'}>
+              <NavItem href="/shop" isactive={pathname === '/shop'}>
                 Shop
               </NavItem>
             </li>
             <li>
-              <NavItem href="/contactus" isActive={pathname === '/contactus'}>
+              <NavItem href="/contactus" isactive={pathname === '/contactus'}>
                 Contact Us
               </NavItem>
             </li>
@@ -51,15 +51,22 @@ const Footer = () => {
 
           : (
             <ul className="hidden md:flex">
-              <NavItem href="/aboutus" isActive={pathname === '/aboutus'}>
-                About Us
-              </NavItem>
-              <NavItem href="/shop" isActive={pathname === '/shop'}>
-                Shop
-              </NavItem>
-              <NavItem href="/contactus" isActive={pathname === '/contactus'}>
-                Contact Us
-              </NavItem>
+              <li>
+                <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
+                  About Us
+                </NavItem>
+              </li>
+              <li>
+                <NavItem href="/shop" isactive={pathname === '/shop'}>
+                  Shop
+                </NavItem>
+              </li>
+              <li>
+                <NavItem href="/contactus" isactive={pathname === '/contactus'}>
+                  Contact Us
+                </NavItem>
+              </li>
+
             </ul>
           )}
 
@@ -69,25 +76,25 @@ const Footer = () => {
         <div className='social-icon'>
           <a href='https://www.facebook.com/profile.php?id=100063830482431'
             target="_blank">
-            <Facebook isMobile={isMobile} />
+            <Facebook ismobile={isMobile} />
           </a>
         </div>
         <div className='social-icon'>
           <a href='https://twitter.com/YashBhardwaj274'
             target="_blank">
-            <Twitter isMobile={isMobile} />
+            <Twitter ismobile={isMobile} />
           </a>
         </div>
         <div className='social-icon'>
           <a href='https://www.linkedin.com/in/yash-bhardwaj/'
             target="_blank">
-            <Linkedin isMobile={isMobile} />
+            <Linkedin ismobile={isMobile} />
           </a>
         </div>
         <div className='social-icon'>
           <a href='https://www.instagram.com/warriorsexam'
             target='_blank'>
-            <Insta isMobile={isMobile} />
+            <Insta ismobile={isMobile} />
           </a>
         </div>
       </div>
@@ -95,13 +102,16 @@ const Footer = () => {
   );
 };
 
-function NavItem({ href, isActive, children }: NavItemProps) {
+function NavItem({ href, isactive, children }: NavItemProps) {
+
   return (
-    <li>
-      <Link href={href}>
-        <MenuItem isactive={isActive}>{children}</MenuItem>
-      </Link>
-    </li>
+
+    <Link href={href}>
+      <MenuItem isactive={isactive}>
+        <p className='paragraph'>{children}</p>
+      </MenuItem>
+    </Link>
+
   );
 }
 

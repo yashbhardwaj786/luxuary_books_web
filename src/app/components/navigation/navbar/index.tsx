@@ -6,7 +6,7 @@ import styles from './navbar.module.css';
 
 interface NavItemProps {
   href: string;
-  isActive?: boolean;
+  isactive?: boolean;
   children: React.ReactNode;
 }
 
@@ -19,7 +19,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
       <nav className={styles.navbar}>
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <Logo />
+            <Logo/>
             <button
               type="button"
               className="inline-flex items-center md:hidden"
@@ -38,13 +38,13 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </svg>
             </button>
             <ul className="hidden md:flex gap-x-16">
-              <NavItem href="/aboutus" isActive={pathname === '/aboutus'}>
+              <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
                 About Us
               </NavItem>
-              <NavItem href="/shop" isActive={pathname === '/shop'}>
+              <NavItem href="/shop" isactive={pathname === '/shop'}>
                 Shop
               </NavItem>
-              <NavItem href="/contactus" isActive={pathname === '/contactus'}>
+              <NavItem href="/contactus" isactive={pathname === '/contactus'}>
                 Contact Us
               </NavItem>
             </ul>
@@ -55,11 +55,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
   );
 };
 
-function NavItem({ href, isActive, children }: NavItemProps) {
+function NavItem({ href, isactive, children }: NavItemProps) {
   return (
     <li>
       <Link href={href}>
-        <p style={{ fontFamily: isActive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
+        <p style={{ fontFamily: isactive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
       </Link>
     </li>
   );

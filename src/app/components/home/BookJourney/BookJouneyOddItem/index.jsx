@@ -19,7 +19,7 @@ export default function BookJourneyOddItem({journey = {}}) {
             </div>
 
 
-            <img className="book-item-image" src="/images/bookimg_odd.png" />
+            <img className="book-item-image" src={bookImageUrl} />
 
         </BookJourneyOddItemWrapper>
     )

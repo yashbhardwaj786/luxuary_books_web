@@ -6,7 +6,7 @@ export const BookJouneyWrapper = styled.div`
     background-repeat: repeat;
     padding-bottom: 10px;
     background-image: ${(props) =>
-    props.isMobile  ? "url('/images/background_list_mobile.png')" : "url('/images/background_list.png')"}; 
+    props.ismobile  ? "url('/images/background_list_mobile.png')" : "url('/images/background_list.png')"}; 
 
     .bgContainer{
         display: flex;

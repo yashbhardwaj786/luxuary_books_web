@@ -4,7 +4,7 @@ export const StyledHappyCustomerWrapper = styled.div`
   flex-direction: column;
   width: 100%;
   background-image:  ${(props) =>
-    props.isMobile  ? "url('/images/homepage_bg_mobile.png')" : "url('/images/homepage_bg.png')"}; 
+    props.ismobile  ? "url('/images/homepage_bg_mobile.png')" : "url('/images/homepage_bg.png')"}; 
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /* Center horizontally */
@@ -31,7 +31,8 @@ export const ItemContainer = styled.div`
     .book__img img {
       object-fit: contain;
       border-radius: 1.25rem;
-      width: 300px;
+      width: auto;
+      height: 141px;
       align-items: center;
       justify-content: center;
       margin-top: 50px;
@@ -65,9 +66,8 @@ export const ItemContainer = styled.div`
       background: var(--brand-navbar-background-color);
       width: 119px;
       border-radius: 24.5px;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      margin-bottom: 15px;
+      padding: 8px 0px;
+      margin: 8px 0px 15px;
     }
 
     .button-text {
@@ -85,8 +85,8 @@ export const ItemContainer = styled.div`
         align-items: center;
         justify-content: center;
         margin-top: 25px;
-        height: 250px;
-        width: 690px;
+        height: 450px;
+        width: auto;
       }
 
       .book-title {
@@ -108,11 +108,8 @@ export const ItemContainer = styled.div`
 
       .button-container {
         width: 243px;
-        padding-top: 17px;
-        padding-bottom: 17px;
-        padding-left: 34px;
-        padding-right: 34px;
-        margin-bottom: 50px;
+        padding: 17px 34px;
+        margin: 18px 0px 0px;
       }
 
       .button-text {

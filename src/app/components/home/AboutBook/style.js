@@ -20,8 +20,6 @@ export const AboutBookContainer = styled.div`
         justify-content: center;
     }
     .image {
-        width: 128px;
-        height: 20px;
         margin-top: 12px;
         margin-bottom: 7px;
         align-self: center;
@@ -61,8 +59,6 @@ export const AboutBookContainer = styled.div`
             margin-right: 61px;
         }
         .image {
-            width: 322px;
-            height: 51px;
             margin-top: 30px;
             margin-bottom: 20px;
         }

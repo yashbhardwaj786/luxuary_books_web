@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 
 interface NavItemProps {
   href: string;
-  isActive?: boolean;
+  isactive?: boolean;
   children: React.ReactNode;
   toggle?: any;
 }
@@ -48,13 +48,13 @@ const Sidebar = ({
           </button>
 
           <ul className="sidebar-nav text-center leading-relaxed text-xl">
-              <NavItem href="/aboutus" isActive={pathname === '/aboutus'} toggle={toggle}>
+              <NavItem href="/aboutus" isactive={pathname === '/aboutus'} toggle={toggle}>
                 About Us
               </NavItem>
-              <NavItem href="/shop" isActive={pathname === '/shop'} toggle={toggle}>
+              <NavItem href="/shop" isactive={pathname === '/shop'} toggle={toggle}>
                 Shop
               </NavItem>
-              <NavItem href="/contactus" isActive={pathname === '/contactus'} toggle={toggle}>
+              <NavItem href="/contactus" isactive={pathname === '/contactus'} toggle={toggle}>
                 Contact Us
               </NavItem>
           </ul>
@@ -64,11 +64,11 @@ const Sidebar = ({
   );
 };
 
-function NavItem({ href, isActive, children, toggle }: NavItemProps) {
+function NavItem({ href, isactive, children, toggle }: NavItemProps) {
   return (
     <li>
       <Link href={href} onClick={toggle}>
-        <p style={{ fontFamily: isActive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
+        <p style={{ fontFamily: isactive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
       </Link>
     </li>
   );

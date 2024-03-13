@@ -29,3 +29,8 @@
 .paragraph:active {
     font-weight: bold;
 }
+
+.logoimageclass {
+    height: 51px;
+    width: 351px;
+}

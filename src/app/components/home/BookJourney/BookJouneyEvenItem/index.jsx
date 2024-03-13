@@ -6,7 +6,7 @@ export default function BookJourneyEvenItem({journey = {}}) {
     const {text = '', link = ''} = cta || {}
     return (
         <BookJourneyEvenItemWrapper>
-            <img className="book-item-image" src="/images/bookimg_odd.png" />
+            <img className="book-item-image" src={bookImageUrl} />
 
             <div className="book-details-container">
                 <label className="book-journey-title">{title}</label>

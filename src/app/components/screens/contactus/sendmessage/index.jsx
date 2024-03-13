@@ -22,7 +22,7 @@ export default function SendMessge() {
                 viewBox="0 0 14 14"
                 width="14"
                 height="14">
-                <MessageIcon />
+                <MessageIcon ismobile={isMobile}/>
             </StyledSVG>
         );
     };
@@ -48,7 +48,7 @@ export default function SendMessge() {
             { isMobile ? (
             <>
             <div className="name-container">
-                    <UserIcon isMobile={isMobile}/>
+                    <UserIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -58,7 +58,7 @@ export default function SendMessge() {
             </div>
 
             <div className="name-container">
-                    <EmailIcon isMobile={isMobile}/>
+                    <EmailIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -71,7 +71,7 @@ export default function SendMessge() {
             ) : (
                 <div className="name-email-container">
                 <div className="name-container">
-                    <UserIcon isMobile={isMobile}/>
+                    <UserIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -81,7 +81,7 @@ export default function SendMessge() {
                 </div>
 
                 <div className="email-container">
-                    <EmailIcon isMobile={isMobile}/>
+                    <EmailIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
                         type="text"
@@ -96,7 +96,7 @@ export default function SendMessge() {
             
 
             <div className="phone-container">
-                <PhoneIcon isMobile={isMobile}/>
+                <PhoneIcon ismobile={isMobile}/>
                 <input
                     className="name-input-text"
                     type="text"
@@ -106,7 +106,7 @@ export default function SendMessge() {
             </div>
 
             <div className="message-container">
-                <Message isMobile={isMobile}/>
+                <Message />
                 <textarea
                     className="message-input-area"
                     type="text"

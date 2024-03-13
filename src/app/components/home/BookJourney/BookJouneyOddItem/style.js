@@ -21,10 +21,10 @@ export const BookJourneyOddItemWrapper = styled.div`
         width: fit-content;
         margin-top: 34px;
         margin-right: 100px;
-        background-repeat: no-repeat;
-        background-image: url('/images/book_bg_even1.png');
+        /* background-repeat: no-repeat;
+        background-image: url('/images/book_bg_odd.png');
         background-size: auto 100%;
-        background-position: left center;
+        background-position: left center; */
     }
     
     .book-journey-title {

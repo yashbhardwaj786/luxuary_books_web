@@ -7,8 +7,6 @@ export const SendMessgerWrapper = styled.div`
     margin: 20px 0px 30px 0px;
     align-items: center;
 
-    
-
     .name-container {
         display: flex;
         flex-direction: row;

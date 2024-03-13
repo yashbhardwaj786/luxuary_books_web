@@ -6,7 +6,6 @@ function LeftArrow(props) {
   const { className, onClick, arrowColor, category } = props
   return (
     <StyledLeftArrowContainer
-      className="left-arrow__wrapper"
       data-product-category={category}
     >
       <div hidden={className.includes('slick-disabled')}>

@@ -4,9 +4,9 @@ export const BookJourneyEvenItemWrapper = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    background-repeat: no-repeat;
-    background-image: url('/images/book_bg_even_mobile.png');
-    background-position: right center;
+    /* background-repeat: no-repeat;
+    background-image: url('/images/book_bg_even.webp');
+    background-position: right center; */
     align-items: center; /* Vertically center items */
     justify-content: center; /* Horizontally center items */
 

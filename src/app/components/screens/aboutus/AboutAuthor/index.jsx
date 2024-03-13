@@ -8,21 +8,18 @@ export default function AuthorImage({ imageUrl = '', title = '', description = '
     const isMobile = commonMethod()
     return (
         <AuthorImageWrapper>
-            <div className="image-outer-container ">
-                <div className="bg-circle-container">
-                    <div className="bg-author-image">
-                        <img src="/images/author_img.png" />
-                    </div>
-                    <ImageCircle isMobile={isMobile} />
-                </div>
+            <div className="bg-circle-container">
+                <img src="/images/author_img.png" className="bg-author-image" />
+                <ImageCircle ismobile={isMobile} />
             </div>
+
             <label className="title-text">{title}</label>
             {description.split('\n').map((line, index) => (
                 <React.Fragment key={index}>
                     <label className="description-text">{line}</label>
                 </React.Fragment>
             ))}
-            
+
         </AuthorImageWrapper>
     )
 }

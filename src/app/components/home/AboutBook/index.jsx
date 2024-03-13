@@ -20,7 +20,7 @@ export default function AboutBook({
         <AboutBookContainer>
 
             <div className="book-img">
-                <LeftBook isMobile={isMobile} />
+                <LeftBook ismobile={isMobile} />
             </div>
             <div className="text-container">
                 <img className="image"
@@ -32,7 +32,7 @@ export default function AboutBook({
 
             </div>
             <div className="book-img">
-                <RightBook isMobile={isMobile} />
+                <RightBook ismobile={isMobile} />
             </div>
         </AboutBookContainer>
     )

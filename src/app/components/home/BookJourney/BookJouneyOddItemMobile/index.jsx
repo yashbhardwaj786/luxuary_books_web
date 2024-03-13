@@ -7,7 +7,7 @@ export default function BookJourneyOddComponent({journey = {}}) {
     return(
         <BookJourneyOddItemWrapper>
 
-            <img src="/images/book_img_mobile.png" className='book-item-image'/>
+            <img src={bookImageUrl} className='book-item-image'/>
             <label className="book-journey-title">{title}</label>
             <label className="book-journey-subtitle">{description}</label>
             <div className="book-journey-button-container">

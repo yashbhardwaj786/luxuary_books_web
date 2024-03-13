@@ -1,7 +1,7 @@
-function Facebook({ isMobile = false }) {
+function Facebook({ ismobile = false }) {
     return (
         <>
-            {isMobile ? (
+            {ismobile ? (
             <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="0.168198" y="0.565689" width="17.4363" height="18.8039" stroke="#FBEA55" strokeWidth="0.341888"/>
             <path d="M11.3009 10.9933L11.6001 9.02742H9.69831V7.74534C9.69831 7.18978 9.95473 6.67694 10.8094 6.67694H11.6855V4.98887C11.6855 4.98887 10.8949 4.83929 10.147 4.83929C8.58718 4.83929 7.56151 5.80085 7.56151 7.5103V9.02742H5.80933V10.9933H7.56151V15.7797H9.69831V10.9933H11.3009Z" fill="white"/>

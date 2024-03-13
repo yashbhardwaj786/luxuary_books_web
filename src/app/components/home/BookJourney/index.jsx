@@ -11,22 +11,22 @@ export default function BookJourney({ bookJourney = [] }) {
     const isMobile = commonMethod();
 
     return (
-        <BookJouneyWrapper isMobile={isMobile}>
+        <BookJouneyWrapper ismobile={isMobile}>
             {isMobile ? (
                 <div className="bgContainer">
                     {bookJourney.map((journey, index) => {
                         if (!journey) return null
                         const isEven = index % 2 == 0
                         return (
-                            <>
+                            <div key={index}>
                                 {isEven ? (
-                                    <BookJourneyEvenComponent journey={journey} />
+                                    <BookJourneyEvenComponent journey={journey}/>
                                 )
                                 :
                                 (
-                                    <BookJourneyOddComponent journey={journey} />
+                                    <BookJourneyOddComponent journey={journey}/>
                                 )}
-                            </>
+                            </div>
                         )
                     })}
                 </div>
@@ -36,24 +36,19 @@ export default function BookJourney({ bookJourney = [] }) {
                         if (!journey) return null
                         const isEven = index % 2 == 0
                         return (
-                            <>
+                            <div key={index}>
                                 {isEven ? (
-                                    <BookJourneyEvenItem journey={journey} />
+                                    <BookJourneyEvenItem journey={journey}/>
                                 )
                                 :
                                 (
-                                    <BookJourneyOddItem journey={journey} />
+                                    <BookJourneyOddItem journey={journey}/>
                                 )}
-                            </>
+                            </div>
                         )
                     })}
-
                 </div>
             )}
-
-
-
-
         </BookJouneyWrapper>
     )
 }
