@@ -7,11 +7,10 @@ import {commonMethod} from '../../../utils/Utility'
 export default function BannerContent({bannerData = []}) {
 
     const isMobile = commonMethod();
-    console.log('bannerData', bannerData)
 
     return (
 
-        <StyledHappyCustomerWrapper ismobile={isMobile}>
+        <StyledHappyCustomerWrapper>
             {
                 isMobile ? (
                 <CustomCarousel scrollWidth={1} scrollDuration={100}>

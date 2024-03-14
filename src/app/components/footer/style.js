@@ -2,13 +2,12 @@ import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   bottom: 0;
-  height: 241px;
   font-family: 'primary font', sans-serif;
   padding: 20px;
   color: white;
   display: flex;
   flex-direction: column;
-  background-color: var(--brand-navbar-background-color);
+  background-color: rgba(34, 33, 36, 1);
 
   .image {
     align-self: center;
@@ -25,8 +24,11 @@ export const StyledFooter = styled.footer`
     display: flex;
     flex-direction: row;
     margin-top: 21px;
+    
     @media (min-width: 768px) {
       margin-top: 24px;
+
+      
     }
   }
 
@@ -47,10 +49,6 @@ export const MenuItem = styled.div`
     line-height: 9.46px;
     margin-bottom: 10px;
     cursor: pointer;
-    font-family: ${props =>
-    props.isactive
-      ? 'primary font bold, sans-serif'
-      : 'primary font, sans-serif'};
   }
     
 

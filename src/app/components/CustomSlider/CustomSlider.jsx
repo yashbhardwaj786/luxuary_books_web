@@ -17,7 +17,6 @@ function CustomSlider(props) {
     infinite = false,
     children,
   } = props || {}
-  console.log(props)
 
   return (
     <CustomSliderContainer className={className}>

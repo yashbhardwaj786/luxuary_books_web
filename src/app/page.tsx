@@ -4,6 +4,7 @@ import React, { useCallback, useMemo } from "react";
 import HomeLandingPage from './components/home/index'
 import { HomePageContainer } from './home.page'
 import { useRouter } from 'next/navigation';
+import Footer from './components/footer/Footer';
 
 export default function Home() {
   const router = useRouter();
@@ -23,6 +24,7 @@ export default function Home() {
       <HomePageContainer >
         <HomeLandingPage actions={reorderPageActions}/>
       </HomePageContainer>
+      <Footer/>
     </>
   );
 }

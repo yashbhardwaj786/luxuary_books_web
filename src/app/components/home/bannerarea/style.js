@@ -3,8 +3,7 @@ export const StyledHappyCustomerWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image:  ${(props) =>
-    props.ismobile  ? "url('/images/homepage_bg_mobile.png')" : "url('/images/homepage_bg.png')"}; 
+  background-image: url('/images/homepage_bg_mobile.png');
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /* Center horizontally */
@@ -14,6 +13,7 @@ export const StyledHappyCustomerWrapper = styled.div`
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url('/images/homepage_bg.png');
   }
 
 `;

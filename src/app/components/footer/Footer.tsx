@@ -13,7 +13,7 @@ import { commonMethod } from '../../utils/Utility'
 
 interface NavItemProps {
   href: string; // Explicitly define the type as string
-  isactive?: boolean;
+  isactive: boolean;
   children: React.ReactNode;
 }
 
@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      <img className="image"
+       <img className="image"
         src='/images/logo1.png'
         alt="Logo" />
       <div className='option-container'>
@@ -107,8 +107,8 @@ function NavItem({ href, isactive, children }: NavItemProps) {
   return (
 
     <Link href={href}>
-      <MenuItem isactive={isactive}>
-        <p className='paragraph'>{children}</p>
+      <MenuItem>
+        <p className='paragraph' style={{ fontFamily: isactive ? 'primary font bold, sans-serif' : 'primary font, sans-serif'}}>{children}</p>
       </MenuItem>
     </Link>
 

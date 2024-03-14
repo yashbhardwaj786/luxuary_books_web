@@ -11,7 +11,7 @@ export default function BookJourney({ bookJourney = [] }) {
     const isMobile = commonMethod();
 
     return (
-        <BookJouneyWrapper ismobile={isMobile}>
+        <BookJouneyWrapper >
             {isMobile ? (
                 <div className="bgContainer">
                     {bookJourney.map((journey, index) => {

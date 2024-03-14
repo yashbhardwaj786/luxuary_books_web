@@ -5,8 +5,7 @@ export const BookJouneyWrapper = styled.div`
     flex-direction: column;
     background-repeat: repeat;
     padding-bottom: 10px;
-    background-image: ${(props) =>
-    props.ismobile  ? "url('/images/background_list_mobile.png')" : "url('/images/background_list.png')"}; 
+    background-image: url('/images/background_list_mobile.png');
 
     .bgContainer{
         display: flex;
@@ -16,6 +15,7 @@ export const BookJouneyWrapper = styled.div`
     }
 
     @media (min-width: 768px) {
+        background-image: url('/images/background_list.png');
         padding-bottom: 0px;
         .bgContainer{
             display: flex;

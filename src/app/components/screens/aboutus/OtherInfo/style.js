@@ -5,7 +5,6 @@ export const OtherInfoWrapper = styled.div`
     flex-direction: column;
     background-color: var(--brand-navbar-background-color);
     padding: 23px 31px;
-    min-height: 136px;
     margin-bottom: 30px;
 
     .description{
@@ -38,7 +37,6 @@ export const OtherInfoWrapper = styled.div`
 
     @media (min-width: 768px) {
         padding: 50px 90px;
-        min-height: 267px;
         margin-bottom: 50px;
 
         .description{
