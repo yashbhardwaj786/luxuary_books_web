@@ -3,6 +3,6 @@
   "/page": "/",
   "/favicon.ico/route": "/favicon.ico",
   "/aboutus/page": "/aboutus",
-  "/shop/page": "/shop",
-  "/contactus/page": "/contactus"
+  "/contactus/page": "/contactus",
+  "/shop/page": "/shop"
 }
