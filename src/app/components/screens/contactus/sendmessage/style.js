@@ -64,6 +64,7 @@ export const SendMessgerWrapper = styled.div`
       font-family: 'Gayathri font' sans-serif;
       color: var(--book-subtitle-color);
       border: none;
+      margin-top: 4px;
       outline: none;
       background-color: transparent;
       resize: none;

@@ -10,13 +10,6 @@ export const HomeData = {
 					text: "Explore the book",
 					link: "someurltonavigatetheuser"
 				}
-			},
-			{
-				bookImage: '/images/book_image.jpg',
-				cta: {
-					text: "Explore the book",
-					link: "someurltonavigatetheuser"
-				}
 			}
 		],
 		aboutBook: {
@@ -27,6 +20,16 @@ export const HomeData = {
 			}
 		},
 		bookJourney: [
+			{
+				bookImageUrl: "/images/joash_pundit.jpeg",
+				title: "Joash Pundit",
+				description: "Joash Pundit - a science journalist. Torn between the past and future, science and mysticism, will he find the answers?",
+				cta: {
+					text: "View Series",
+					link: "someurltonavigatetheuser"
+				},
+				backgroundImageUrl: "somebackgroundImageURL"
+			},
 			{
 				bookImageUrl: "/images/Krupa.png",
 				title: "Krupa",

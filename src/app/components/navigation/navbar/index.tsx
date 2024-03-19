@@ -3,6 +3,7 @@ import Link from "next/link";
 import Logo from "./Logo";
 import { usePathname } from 'next/navigation';
 import styles from './navbar.module.css';
+import { commonMethod } from '../../../utils/Utility'
 
 interface NavItemProps {
   href: string;
@@ -12,14 +13,14 @@ interface NavItemProps {
 
 const Navbar = ({ toggle }: { toggle: () => void }) => {
   const pathname = usePathname();
-
+  const isMobile = commonMethod();
 
   return (
     <>
       <nav className={styles.navbar}>
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <Logo/>
+            <Logo isMobile={isMobile}/>
             <button
               type="button"
               className="inline-flex items-center md:hidden"

@@ -74,13 +74,13 @@ const Footer = () => {
       </div>
       <div className='image-container'>
         <div className='social-icon'>
-          <a href='https://www.facebook.com/profile.php?id=100063830482431'
+          <a href='https://www.facebook.com/profile.php?id=61551933652555'
             target="_blank">
             <Facebook ismobile={isMobile} />
           </a>
         </div>
         <div className='social-icon'>
-          <a href='https://twitter.com/YashBhardwaj274'
+          <a href='https://twitter.com/KshamtaPurohit'
             target="_blank">
             <Twitter ismobile={isMobile} />
           </a>
@@ -92,7 +92,7 @@ const Footer = () => {
           </a>
         </div>
         <div className='social-icon'>
-          <a href='https://www.instagram.com/warriorsexam'
+          <a href='https://www.instagram.com/kshamta_writes'
             target='_blank'>
             <Insta ismobile={isMobile} />
           </a>

@@ -30,9 +30,8 @@ export const ItemContainer = styled.div`
     
     .book__img img {
       object-fit: contain;
-      border-radius: 1.25rem;
       width: auto;
-      height: 141px;
+      height: 161px;
       align-items: center;
       justify-content: center;
       margin-top: 50px;

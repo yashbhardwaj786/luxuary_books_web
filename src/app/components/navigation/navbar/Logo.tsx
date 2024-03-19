@@ -4,7 +4,9 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import Button from "./Button";
 
-const Logo = () => {
+const Logo = ({
+  isMobile = false
+}) => {
   //update the size of the logo when the size of the screen changes
   const [width, setWidth] = useState(0);
 
@@ -36,13 +38,19 @@ const Logo = () => {
   return (
     <>
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
-        <Image
-          src="/images/logo1.png"
+
+        {isMobile ? (
+          <img className="image"
+          src='/images/logo1.png'
           alt="Logo"
-          width={width < 1024 ? "150" : "250"}
-          height={width < 1024 ? "45" : "74"}
-          className="relative"
-        />
+          style={{width: '128px', height: '35px'}}/>
+        ) : (
+        <img className="image"
+          src='/images/logo1.png'
+          alt="Logo"
+          style={{width: '322px', height: '51px'}}/>
+        )}
+        
       </Link>
       <div
         style={{

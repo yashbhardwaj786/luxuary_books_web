@@ -30,9 +30,7 @@ export const ContactusData = {
 		],
 		professionalInquiries: {
 			title: "For Professional Inquiries",
-			address: "No: 09a, Downtown, San Diego, USA.",
-			email: "support@pages.com",
-			phone: "1-800-123-9999"
+			email: "support@pages.com"
 		}
 	}
 }
