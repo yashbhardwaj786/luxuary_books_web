@@ -85,12 +85,12 @@ const Footer = () => {
             <Twitter ismobile={isMobile} />
           </a>
         </div>
-        <div className='social-icon'>
+        {/* <div className='social-icon'>
           <a href='https://www.linkedin.com/in/yash-bhardwaj/'
             target="_blank">
             <Linkedin ismobile={isMobile} />
           </a>
-        </div>
+        </div> */}
         <div className='social-icon'>
           <a href='https://www.instagram.com/kshamta_writes'
             target='_blank'>

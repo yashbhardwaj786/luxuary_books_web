@@ -18,44 +18,44 @@ export const BookDetailsData = {
 				},
 				{
 					term: "Tirtha" ,
-					meaning: `Means a sacred or holy place, typically a place where believers would go for
+					meaning: `A sacred or holy place, typically a place where believers would go for
 					pilgrimage.`
 				},
 				{
 					term: "Rakshak" ,
-					meaning: `Means protector or guardian.`
+					meaning: `Protector or guardian.`
 				},
 				{
 					term: "Parvat" ,
-					meaning: `Means mountain.`
+					meaning: `Mountain.`
 				},
 				{
 					term: "Ashram" ,
-					meaning: `Means a monastery.`
+					meaning: `A monastery.`
 				},
 				{
 					term: "Prakruti" ,
-					meaning: `Means nature.`
+					meaning: `Nature.`
 				},
 				{
 					term: "Saram" ,
-					meaning: `Means a summary or gist of something.`
+					meaning: `A summary or gist of something.`
 				},
 				{
 					term: "Sheersha" ,
-					meaning: `Means is highest or supreme.`
+					meaning: `It is highest or supreme.`
 				},
 				{
 					term: "Maha" ,
-					meaning: `Means great.`
+					meaning: `Great.`
 				},
 				{
 					term: "Moksha" ,
-					meaning: `Means is nirvana or enlightenment.`
+					meaning: `It is nirvana or enlightenment.`
 				},
 				{
 					term: "Roga" ,
-					meaning: `Means disease.`
+					meaning: `Disease.`
 				}
 			]
 		}

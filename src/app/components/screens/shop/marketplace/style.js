@@ -95,7 +95,7 @@ export const MarketPlaceWrapper = styled.div`
         .grid-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust width as needed */
-            gap: 20px;
+            gap: 27px;
             padding-left: 90px;
             padding-right: 90px;
             padding-bottom: 27px;
