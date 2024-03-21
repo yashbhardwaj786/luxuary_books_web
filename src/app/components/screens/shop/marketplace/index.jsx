@@ -1,9 +1,19 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 import { MarketPlaceWrapper } from './style'
+import noop from 'lodash/noop'
 
 
-export default function ShowMarketPlace({ isMobile = false, book = [], country = [], marketPlace = [] }) {
+export default function ShowMarketPlace({
+    isMobile = false,
+    book = [],
+    country = [],
+    marketPlace = [],
+    viewSeriesClick = noop }) {
+
+    const handleViewMoreClick = useCallback((link) => {
+        viewSeriesClick(link)
+    }, []);
 
     const [selectedBookOption, setSelectedBookOption] = useState('');
     const [selectedCountryOption, setSelectedCountryOption] = useState('');
@@ -14,18 +24,6 @@ export default function ShowMarketPlace({ isMobile = false, book = [], country =
     const handleCountrySelectChange = (event) => {
         setSelectedCountryOption(event.target.value);
     };
-
-    const data = [
-        { imageUrl: './images/amazon_logo.png', title: 'Item 1', description: 'Description for item 1' },
-        { imageUrl: './images/apple_book_logo.jpg', title: 'Item 2', description: 'Description for item 2' },
-        { imageUrl: './images/amazon_logo.png', title: 'Item 1', description: 'Description for item 1' },
-        { imageUrl: './images/apple_book_logo.jpg', title: 'Item 2', description: 'Description for item 2' },
-        { imageUrl: './images/amazon_logo.png', title: 'Item 1', description: 'Description for item 1' },
-        { imageUrl: './images/apple_book_logo.jpg', title: 'Item 2', description: 'Description for item 2' },
-        { imageUrl: './images/amazon_logo.png', title: 'Item 1', description: 'Description for item 1' },
-        { imageUrl: './images/apple_book_logo.jpg', title: 'Item 2', description: 'Description for item 2' },
-        // Add more items as needed
-    ];
 
     return (
         <MarketPlaceWrapper>
@@ -52,8 +50,8 @@ export default function ShowMarketPlace({ isMobile = false, book = [], country =
 
             {
                 isMobile ? (
-                <>
-                </>
+                    <>
+                    </>
                 ) : (
                     <div className="grid-container">
                         {marketPlace.map((item, index) => {
@@ -71,7 +69,13 @@ export default function ShowMarketPlace({ isMobile = false, book = [], country =
                                     <hr className='line-seprator' />
                                     <label className='book-title-text'>{bookTitle}</label>
                                     <label className='book-description-text'>{bookDescription}</label>
-                                    <div className='marketplace-button-container'>
+                                    <div className='marketplace-button-container'
+                                        onClick={(event) => {
+                                            event.preventDefault()
+                                            event.stopPropagation()
+                                            handleViewMoreClick(marketPlaceUrl)
+                                        }}
+                                    >
                                         <label className='marketplace-button-text'>{title}</label>
                                     </div>
                                 </div>
