@@ -8,7 +8,7 @@ export const HomeData = {
 				bookImage: '/images/book_image.jpg',
 				cta: {
 					text: "Explore the book",
-					link: "someurltonavigatetheuser"
+					link: "/bookdetails?bookName=${encodeURIComponent('Karma Sagas The Sangam: 1')}"
 				}
 			}
 		],

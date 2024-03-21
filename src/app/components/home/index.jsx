@@ -10,6 +10,7 @@ import {HomeScreenContainer} from './style'
 export default function HomeLandingPage(props) {
     const {
         learnMoreClick = noop,
+        exploreBookClick = noop,
       } = props.actions || {}
       const {
         bannerData=[], 
@@ -19,7 +20,7 @@ export default function HomeLandingPage(props) {
     return (
 
         <HomeScreenContainer>
-        <BannerContent bannerData={bannerData}/>
+        <BannerContent exploreBookClick={exploreBookClick} bannerData={bannerData}/>
         <AboutBook learnMoreClick={learnMoreClick} aboutBook={aboutBook}/>
         <BookJourney bookJourney={bookJourney}/>
         </HomeScreenContainer>

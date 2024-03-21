@@ -67,6 +67,7 @@ export const ItemContainer = styled.div`
       border-radius: 24.5px;
       padding: 8px 0px;
       margin: 8px 0px 15px;
+      cursor: pointer;
     }
 
     .button-text {
@@ -75,6 +76,7 @@ export const ItemContainer = styled.div`
       text-align: center;
       margin-left: 16px;
       font-family: 'primary font bold', sans-serif;
+      cursor: pointer;
     }
 
     @media (min-width: 768px) {

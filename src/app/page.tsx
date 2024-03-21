@@ -11,13 +11,20 @@ export default function Home() {
   const learnMoreClick = useCallback((url: string) => {
     router.push(url)
   }, [])
+
+  const exploreBookClick = useCallback((url: string) => {
+    router.push(url)
+  }, [])
+  
   const reorderPageActions = useMemo(() => {
     return {
       learnMoreClick,
+      exploreBookClick
       
     }
   }, [
-    learnMoreClick
+    learnMoreClick,
+    exploreBookClick
   ])
   return (
     <>

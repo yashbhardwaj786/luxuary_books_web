@@ -1,12 +1,20 @@
-import React, {useEffect, useState } from "react";
+import React, {useCallback, useState } from "react";
 import Slider from "../Slider/index";
 import { StyledHappyCustomerWrapper, ItemContainer } from './style'
 import CustomCarousel from '../../CustomCarousel/index'
 import {commonMethod} from '../../../utils/Utility'
+import noop from 'lodash/noop'
 
-export default function BannerContent({bannerData = []}) {
+export default function BannerContent({
+    bannerData = [],
+    exploreBookClick = noop,
+    }) {
 
     const isMobile = commonMethod();
+
+    const handleClick = useCallback((link) => {
+        exploreBookClick(link)
+    }, []);
 
     return (
 
@@ -23,7 +31,13 @@ export default function BannerContent({bannerData = []}) {
                                     <div className="book__img">
                                         <img src={bookImage} alt="book-image" />
                                     </div>
-                                    <div className="button-container">
+                                    <div className="button-container" 
+                                    onClick={(event) => {
+                                        event.preventDefault()
+                                        event.stopPropagation()
+                                        handleClick(link)
+                                      }}
+                                    >
                                         <label className="button-text">{text}</label>
                                     </div>
                                 </ItemContainer>
@@ -36,7 +50,7 @@ export default function BannerContent({bannerData = []}) {
                     {bannerData.map((banner, index) => {
                             if (!banner) return null
                             const { bookImage = '', title = '', description = '', cta = {} } = banner
-                            const {text = '', url = ''} = cta
+                            const {text = '', link = ''} = cta
                             return (
                                 <ItemContainer key={index}>
                                     <div className="book__img">
@@ -44,7 +58,13 @@ export default function BannerContent({bannerData = []}) {
                                     </div>
                                     <label className="book-title">{title}</label>
                                     <label className="book-subtitle">{description}</label>
-                                    <div className="button-container">
+                                    <div className="button-container" 
+                                    onClick={(event) => {
+                                        event.preventDefault()
+                                        event.stopPropagation()
+                                        handleClick(link)
+                                      }}
+                                    >
                                         <label className="button-text">{text}</label>
                                     </div>
                                 </ItemContainer>

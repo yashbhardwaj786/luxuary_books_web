@@ -61,7 +61,7 @@ export default function SendMessge() {
                     <EmailIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
-                        type="text"
+                        type="email"
                         value={emailText}
                         placeholder="Email"
                         onChange={handleChangeEmail} />
@@ -84,7 +84,7 @@ export default function SendMessge() {
                     <EmailIcon ismobile={isMobile}/>
                     <input
                         className="name-input-text"
-                        type="text"
+                        type="email"
                         value={emailText}
                         placeholder="Email"
                         onChange={handleChangeEmail} />
@@ -99,7 +99,7 @@ export default function SendMessge() {
                 <PhoneIcon ismobile={isMobile}/>
                 <input
                     className="name-input-text"
-                    type="text"
+                    type="number"
                     value={phoneText}
                     placeholder="Phone"
                     onChange={handleChangePhone} />
