@@ -6,6 +6,7 @@ import ShowMarketPlace from './marketplace/index'
 import {commonMethod} from '../../../utils/Utility'
 import {ShopData} from '../../../shop/Shopdata.Data'
 import {ShopCountryData} from './../../../shop/ShopCountry.Data'
+import {MarketPlaceData} from './../../../shop/MarketPlace.Data'
 
 export default function ShopLandingPage() {
 
@@ -17,6 +18,9 @@ export default function ShopLandingPage() {
     const {
         country = []
     } = ShopCountryData.result
+    const {
+        marketPlace = []
+    } = MarketPlaceData.result
 
     const isMobile = commonMethod()
 
@@ -24,7 +28,7 @@ export default function ShopLandingPage() {
             <ShopWrapper>
             <ShopBannerPage bannerData={bannerData}/>
             <StayUpdate getUpdatesData={getUpdatesData}/>
-            <ShowMarketPlace isMobile={isMobile} book={book} country={country}/>
+            <ShowMarketPlace isMobile={isMobile} book={book} country={country} marketPlace={marketPlace}/>
             </ShopWrapper>
     );
 };

@@ -35,11 +35,6 @@
       "static/chunks/main-app.js",
       "static/css/app/bookdetails/page.css",
       "static/chunks/app/bookdetails/page.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
     ]
   }
 }

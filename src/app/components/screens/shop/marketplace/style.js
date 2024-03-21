@@ -91,5 +91,69 @@ export const MarketPlaceWrapper = styled.div`
 
         }
 
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust width as needed */
+            gap: 20px;
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-bottom: 27px;
+        }
+
+        .grid-item {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--book-subtitle-color-60);
+            border-radius: 4.72px;
+            margin-bottom: 27px;
+        }
+
+        .marketplace-image {
+            margin: 20px;
+            width: auto;
+            max-height: 150px;
+        }
+        .line-seprator{
+            background-color: var(--book-subtitle-color-60);
+            margin-bottom: 33px;
+        }
+
+        .book-title-text {
+            font-size: 28.34px;
+            font-family: 'primary font light2', sans-serif;
+            color: var(--black-color);
+            margin: 0px 17px 18px 17px;
+            text-align: center;
+            max-lines: 2;
+        }
+
+        .book-description-text {
+            font-size: 15.12px;
+            font-family: 'Gayathri font', sans-serif;
+            color: var(--book-subtitle-color);
+            margin: 0px 17px 18px 19px;
+            text-align: center;
+        }
+
+        .marketplace-button-container {
+            display: flex;
+            background-color: var(--brand-navbar-background-color);
+            border-radius: 23.15px;
+            justify-content: center;
+            cursor: pointer;
+            margin: 35px 27px 26px 24px;
+        }
+
+        .marketplace-button-text {
+            font-size: 15.12px;
+            padding-left: 65px;
+            padding-right: 65px;
+            padding-top: 17px;
+            padding-bottom: 16px;
+            font-family: 'primary font bold', sans-serif;
+            color: var(--brand-yellow-color);
+            cursor: pointer;
+        }
+
     }
 `;
