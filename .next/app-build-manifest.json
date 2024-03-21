@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/layout": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/shop/page": [
       "static/chunks/webpack.js",
@@ -12,29 +12,11 @@
       "static/css/app/shop/page.css",
       "static/chunks/app/shop/page.js"
     ],
-    "/aboutus/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/aboutus/page.css",
-      "static/chunks/app/aboutus/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/contactus/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contactus/page.css",
-      "static/chunks/app/contactus/page.js"
-    ],
-    "/bookdetails/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/bookdetails/page.css",
-      "static/chunks/app/bookdetails/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ]
   }
 }

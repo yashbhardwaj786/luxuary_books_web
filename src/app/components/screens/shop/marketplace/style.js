@@ -39,6 +39,7 @@ export const MarketPlaceWrapper = styled.div`
         -webkit-appearance: none; // For Safari
         -moz-appearance: none;
         background-color: transparent;
+        outline: none;
     }
 
     .select-option-text {

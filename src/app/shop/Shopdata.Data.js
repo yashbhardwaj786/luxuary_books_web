@@ -22,10 +22,6 @@ export const ShopData = {
 			{
 				bookId: 1001,
 				bookName: "Karma Sagas - The Sangam: 1",
-			},
-			{
-				bookId: 1002,
-				bookName: "Percy Jackson and the Olympians",
 			}
 		]
 	}
