@@ -60,6 +60,69 @@ export const MarketPlaceWrapper = styled.div`
         align-items: center;
     }
 
+    .marketplace-mobile-list-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 90px 30px 90px;
+    }
+
+    .marketplace-container {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--book-subtitle-color-60);
+        border-radius: 4.72px;
+        margin-bottom: 30px;
+    }
+
+    .marketplace-image {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100px;
+        height: 40px;
+        align-self: center;
+    }
+
+    .line-seprator{
+        background-color: var(--book-subtitle-color-60);
+        margin-bottom: 17px;
+    }
+
+    .book-title-text {
+        font-size: 19.14px;
+        font-family: 'primary font light2', sans-serif;
+        color: var(--black-color);
+        margin: 0px 48px 10px 48px;
+        text-align: center;
+        max-lines: 2;
+    }
+    .book-description-text {
+        font-size: 8.75px;
+        font-family: 'Gayathri font', sans-serif;
+        color: var(--book-subtitle-color);
+        margin: 0px 14px 10px 14px;
+        text-align: center;
+    }
+
+    .marketplace-button-container {
+        display: flex;
+        background-color: var(--brand-navbar-background-color);
+        border-radius: 13.4px;
+        justify-content: center;
+        cursor: pointer;
+        margin: 10px 35px 26px 35px;
+    }
+
+        .marketplace-button-text {
+            font-size: 8.75px;
+            padding-left: 37px;
+            padding-right: 37px;
+            padding-top: 9px;
+            padding-bottom: 7px;
+            font-family: 'primary font bold', sans-serif;
+            color: var(--brand-yellow-color);
+            cursor: pointer;
+        }
+
     @media (min-width: 768px) {
 
         .title-text {
@@ -110,9 +173,10 @@ export const MarketPlaceWrapper = styled.div`
         }
 
         .marketplace-image {
-            margin: 20px;
-            width: auto;
-            max-height: 150px;
+            margin: 0px 20px 20px ;
+            width: 200px;
+            height: 120px;
+            align-self: center;
         }
         .line-seprator{
             background-color: var(--book-subtitle-color-60);
@@ -121,28 +185,17 @@ export const MarketPlaceWrapper = styled.div`
 
         .book-title-text {
             font-size: 28.34px;
-            font-family: 'primary font light2', sans-serif;
-            color: var(--black-color);
             margin: 0px 17px 18px 17px;
-            text-align: center;
-            max-lines: 2;
         }
 
         .book-description-text {
             font-size: 15.12px;
-            font-family: 'Gayathri font', sans-serif;
-            color: var(--book-subtitle-color);
             margin: 0px 17px 18px 19px;
-            text-align: center;
         }
 
         .marketplace-button-container {
-            display: flex;
-            background-color: var(--brand-navbar-background-color);
             border-radius: 23.15px;
-            justify-content: center;
-            cursor: pointer;
-            margin: 35px 27px 26px 24px;
+            margin: 18px 27px 36px 24px;
         }
 
         .marketplace-button-text {
@@ -151,9 +204,6 @@ export const MarketPlaceWrapper = styled.div`
             padding-right: 65px;
             padding-top: 17px;
             padding-bottom: 16px;
-            font-family: 'primary font bold', sans-serif;
-            color: var(--brand-yellow-color);
-            cursor: pointer;
         }
 
     }

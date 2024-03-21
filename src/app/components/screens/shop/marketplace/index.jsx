@@ -63,8 +63,36 @@ export default function ShowMarketPlace({
             </div>
 
             {isBookDropdownSelected() && isCountryDropdownSelected() &&
-                isMobile && <>
-                </>
+                isMobile && <div className='marketplace-mobile-list-container'>
+                    {marketPlace.map((item, index) => {
+                        const {
+                            marketPlaceName = '',
+                            marketPlaceImage = '',
+                            bookTitle = '',
+                            bookDescription = '',
+                            cta = {}
+                        } = item || {}
+                        const { title = '', marketPlaceUrl = '' } = cta || {}
+                        return (
+                            <div key={index}  className='marketplace-container'>
+                                <img src={marketPlaceImage} alt={bookTitle} className='marketplace-image' />
+                                <hr className='line-seprator' />
+                                <label className='book-title-text'>{bookTitle}</label>
+                                <label className='book-description-text'>{bookDescription}</label>
+                                <div className='marketplace-button-container'
+                                    onClick={(event) => {
+                                        event.preventDefault()
+                                        event.stopPropagation()
+                                        handleViewMoreClick(marketPlaceUrl)
+                                    }}
+                                >
+                                    <label className='marketplace-button-text'>{title}</label>
+                                </div>
+                            </div>
+                        )
+                    })
+                    }
+                </div>
             }
             {isBookDropdownSelected() && isCountryDropdownSelected() &&
                 !isMobile && <div className="grid-container">
