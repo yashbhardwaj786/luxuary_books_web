@@ -3,14 +3,11 @@ import styled from 'styled-components'
 export const TestiMonialsWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    /* background-image:  url('/images/outline_bg_mobile.svg'); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
     background-color: rgba(179, 179, 179, 1);
     padding: 20px;
-    justify-items: center;
+    justify-content: center;
     align-items: center; /* Center vertically */
-    min-height: 200px;
+    width: auto;
 
     .title-text {
         color: var(--brand-navbar-background-color);
@@ -20,8 +17,6 @@ export const TestiMonialsWrapper = styled.div`
 
     @media (min-width: 768px) {
         padding: 50px;
-        /* background-image:  url('/images/Outline_Bg.svg'); */
-        min-height: 400px;
         
         .title-text {
             font-size: 25px;
@@ -30,42 +25,42 @@ export const TestiMonialsWrapper = styled.div`
 `;
 
 export const TestimonialItem = styled.div`
-     width: 100%; 
+    width: 100%; 
     padding-left: 15px;
     padding-right: 15px;
     display: flex !important;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    object-fit: contain;
 
 
     .inner-cover-area{
+
+        width: auto;
+        max-width: 238px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 20px 20px 20px;
         display: flex;
+        border-radius: 3.98px;
         flex-direction: column;
         background-image:  url('/images/Rectangle.svg');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 238px;
-        margin: 10px 96px 0px 96px;
-        border-radius: 10px;
-        align-items: center;
     }
 
     .review-title {
       color: var(--black-color);
       font-size: 8px;
       font-family: 'Gayathri font', sans-serif;
-      text-align: center;
       z-index: 1;
       margin-top: 5px;
-      margin-left: -3px;
 
     }
 
     .quote-image {
-        margin-top: -65px;
-        margin-right: -14px;
+        margin-top: -70px;
+        margin-right: -11px;
     }
 
     .text-container {
@@ -76,8 +71,10 @@ export const TestimonialItem = styled.div`
 
     .user-info-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-bottom: 10px;
+        align-self: flex-start;
+        margin-left: 25px;
 
     }
 
@@ -102,7 +99,7 @@ export const TestimonialItem = styled.div`
 
     .user-occupation {
       color: var(--book-title-color);
-      font-size: 3px;
+      font-size: 6px;
       font-family: 'primary font light2', sans-serif;
       margin-top: 2px;
     }
@@ -114,9 +111,9 @@ export const TestimonialItem = styled.div`
         padding: 50px; 
         
         .inner-cover-area{
-            width: 727px;
+            max-width: 727px;
             background-image:  url('/images/Rectangle.svg');
-            margin: 13px 162px 0px 177px;
+            margin: 13px 20px 0px 20px;
             border-radius: 20px;
             padding: 30px;
         }
@@ -138,6 +135,7 @@ export const TestimonialItem = styled.div`
         }
         .user-info-container {
             margin-bottom: 30px;
+            margin-left: 50px;
 
         }
         .user-image{
@@ -153,7 +151,7 @@ export const TestimonialItem = styled.div`
         }
 
         .user-occupation {
-            font-size: 8px;
+            font-size: 12px;
             
         }
         

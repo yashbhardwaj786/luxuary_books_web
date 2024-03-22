@@ -39,10 +39,10 @@ const StarRating = ({ rating, isMobile }) => {
 };
 
 // Example usage
-const RatingStar = ({ isMobile = false }) => {
+const RatingStar = ({ isMobile = false, rating = 0.0 }) => {
   return (
     <div>
-      <StarRating rating={4.5} isMobile={isMobile} />
+      <StarRating rating={rating} isMobile={isMobile} />
     </div>
   );
 };

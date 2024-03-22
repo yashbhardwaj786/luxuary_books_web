@@ -16,24 +16,21 @@ export default function TestimonialsPage({ testimonials = {}, isMobile = false, 
                 <CustomCarousel scrollWidth={1} scrollDuration={100}>
                     {reviews.map((review, index) => {
                         if (!review) return null
-                        const { name = '', occupation = '', reviewerImage = '', description = '', rating = '' } = review
+                        const { name = '', lastUpdated = '', description = '', rating = 0.0 } = review
 
                         return (
                             <TestimonialItem key={index}>
 
                                 <div className="inner-cover-area">
 
-                                    <RatingStar isMobile={isMobile} />
+                                    <RatingStar isMobile={isMobile} rating={rating}/>
                                     <div className="text-container">
                                         <img src="./images/shape_quotes_mobile.svg" className="quote-image" />
                                         <label className="review-title">{description}</label>
                                     </div>
                                     <div className="user-info-container">
-                                        <img src="./images/userImage.png" className="user-image" />
-                                        <div className="about-user">
-                                            <label className="user-name">{name}</label>
-                                            <label className="user-occupation">{occupation}</label>
-                                        </div>
+                                        <label className="user-name">{name}</label>
+                                        <label className="user-occupation">{lastUpdated}</label>
                                     </div>
 
                                 </div>
@@ -47,26 +44,21 @@ export default function TestimonialsPage({ testimonials = {}, isMobile = false, 
                 <Slider slidesToShow={1} slidesToScroll={1} hideBlur={true}>
                     {reviews.map((review, index) => {
                         if (!review) return null
-                        const { name = '', occupation = '', reviewerImage = '', description = '', rating = '' } = review
+                        const { name = '', lastUpdated = '', description = '', rating = 0.0 } = review
 
                         return (
                             <TestimonialItem key={index}>
 
                                 <div className="inner-cover-area">
 
-                                    <RatingStar isMobile={isMobile} />
+                                    <RatingStar isMobile={isMobile} rating={rating}/>
                                     <div className="text-container">
                                         <img src="./images/shape_quotes.svg" className="quote-image" />
                                         <label className="review-title">{description}</label>
                                     </div>
                                     <div className="user-info-container">
-
-                                        <img src="./images/userImage.png" className="user-image" />
-
-                                        <div className="about-user">
-                                            <label className="user-name">{name}</label>
-                                            <label className="user-occupation">{occupation}</label>
-                                        </div>
+                                        <label className="user-name">{name}</label>
+                                        <label className="user-occupation">{lastUpdated}</label>
                                     </div>
 
                                 </div>

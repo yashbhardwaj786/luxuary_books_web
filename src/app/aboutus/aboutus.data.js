@@ -32,24 +32,28 @@ export const AboutUsData = {
 			title: "testmonial",
 			reviews: [
 				{
-					name: "Tamara joe",
-					occupation: "CEO, lOREAM iPSAUM",
-					reviewerImage: "userImage",
-					description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+					name: "Anonymous",
+					lastUpdated: "Last updated on 25 Jan 2024",
+					description: `Kshamta manages to bring both a dystopian future novel and mix it with spirituality and it really has you questioning throughout the novel. I absolutely loved how this book was set around a set of siblings navigating their quest in a dystopian future.
+					This has to be one of my favourite reads of the year and I can't wait to see what happens next !!"`,
 					rating: "5"
 				},
 				{
-					name: "Tamara joe",
-					occupation: "CEO, lOREAM iPSAUM",
-					reviewerImage: "userImage",
-					description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+					name: "Anonymous",
+					lastUpdated: "Last updated on 15 Feb 2024",
+					description: "Purohit's writing is immersive and vivid, painting a rich and detailed world that feels both futuristic and rooted in tradition. The dynamic between the two siblings and their different perspectives on science and spirituality adds depth to the story, as they navigate through unforeseen challenges and unexpected malevolence threatening the world.",
 					rating: "5"
 				},
 				{
-					name: "Tamara joe",
-					occupation: "CEO, lOREAM iPSAUM",
-					reviewerImage: "userImage",
-					description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+					name: "Kathryn M.",
+					lastUpdated: "Last updated on 01 Jan 2024",
+					description: "This was a great concept for a dystopian future novel it worked well overall with what was going on. It worked as a opening chapter in this series. Kshamta Purohit creates a great concept and I enjoyed how good the characters worked with this universe. I can't wait to read more in this series.",
+					rating: "5"
+				},
+				{
+					name: "Anonymous",
+					lastUpdated: "Last updated on 15 March 2024",
+					description: `Wow! What a fantastic read and amazing debut. This YA dystopian story follows siblings Krupa and Joash in a thrilling journey across the Himalayas. The Sangam explores environmental issues, spirituality and ancient wisdom in this timely blending of traditional sageness and futuristic elements. Kshamta Purohit paints a totally believable, vivid and immersive world, and her writing is nothing short of amazing.`,
 					rating: "5"
 				}
 			]

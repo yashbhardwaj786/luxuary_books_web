@@ -4,6 +4,7 @@ import AuthorImage from './AboutAuthor/index';
 import UseFulLinkPage from './usefulllinks/index'
 import OtherInfo from './OtherInfo/index';
 import TestimonialsPage from './testimonials/index';
+
 import { AboutUsData } from '../../../aboutus/aboutus.data';
 import { commonMethod } from '@/app/utils/Utility';
 
@@ -17,6 +18,7 @@ export default function AboutUsLandingPage(){
         testimonials = {}
     } = AboutUsData.result
     const isMobile = commonMethod();
+
     return(
         <AboutUsWrapper>
             <AuthorImage imageUrl={imageUrl} title={title} description={description}/>
