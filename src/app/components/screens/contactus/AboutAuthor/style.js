@@ -78,15 +78,6 @@ export const AuthorImageWrapper =  styled.div`
     justify-items: center;
     align-items: center;
     padding-bottom: 6px;
-
-    .image-outer-container {
-        display: flex;
-        margin: 30px 0px 30px 0px;
-    }
-    .bg-circle-container{
-        display: flex;
-        margin: 30px 8px 30px 8px;
-    }
     
 
     .bg-author-image{
@@ -116,18 +107,14 @@ export const AuthorImageWrapper =  styled.div`
     @media (min-width: 768px) {
         padding-bottom: 16px;
         
-        .image-outer-container {
-            display: flex;
-            margin: 50px 0px 26px 0px;
-        }
         .bg-circle-container{
             display: flex;
-            margin: 60px 15px 26px 15px;
+            margin: 50px 0px 26px;
         }
         .bg-author-image{
             z-index: 99;
             position: absolute;
-            height: fit-content; 
+            height: auto; 
             width: 380px;
             margin-top: -160px;
             align-self: center;
