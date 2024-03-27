@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const BookJourneyEvenItemWrapper = styled.div`
     display: flex;
     margin-left: 126px;
-
-    .book-image-wrapper{
-        flex: 1;
-    }
+    background-repeat: no-repeat;
+    background-image: url('/images/character_bg.png');
+    background-size: auto 100%;
+    background-position: right center;
 
     .book-item-image {
         height: 300px;
@@ -17,20 +17,12 @@ export const BookJourneyEvenItemWrapper = styled.div`
     .book-details-container {
         display: flex;
         flex-direction: column;
-        height: 410px;
-        width: fit-content;
         margin-top: 34px;
         margin-left: 80px;
-        /* background-repeat: no-repeat;
-        background-image: url('/images/book_bg_even.webp');
-        background-size: auto 100%;
-        background-position: right center; */
+        flex: 1;
+        
     }
-    /* .topBgContainer{
-        background-image: url('/images/WaveOdd.svg');
-        background-repeat: no-repeat;
-        margin-left: 70px;
-    } */
+    
     .book-journey-title {
         font-size: 35px;
         font-family: 'primary font', sans-serif;

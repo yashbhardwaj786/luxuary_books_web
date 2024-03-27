@@ -3,10 +3,12 @@ import styled from "styled-components";
 export const BookJourneyOddItemWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    /* background-repeat: no-repeat;
-    background-image: url('/images/book_bg_odd.png');
-    background-position: left center; */
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url('/images/character_bg.png');
+    background-position: left center;
     align-items: center; /* Vertically center items */
     justify-content: center; /* Horizontally center items */
 

@@ -3,10 +3,12 @@ import styled from "styled-components";
 export const BookJourneyEvenItemWrapper = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    /* background-repeat: no-repeat;
-    background-image: url('/images/book_bg_even.webp');
-    background-position: right center; */
+    padding: 30px;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-image: url('/images/character_bg.png');
+    background-position: right center;
     align-items: center; /* Vertically center items */
     justify-content: center; /* Horizontally center items */
 

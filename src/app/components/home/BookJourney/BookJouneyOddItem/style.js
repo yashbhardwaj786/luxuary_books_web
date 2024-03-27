@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const BookJourneyOddItemWrapper = styled.div`
     display: flex;
     margin-right: 126px;
-
-    .book-image-wrapper{
-        flex: 1;
-    }
+    background-repeat: no-repeat;
+    background-image: url('/images/character_bg.png');
+    background-size: auto 100%;
+    background-position: left center;
 
     .book-item-image {
         height: 300px;
@@ -17,14 +17,10 @@ export const BookJourneyOddItemWrapper = styled.div`
     .book-details-container {
         display: flex;
         flex-direction: column;
-        height: 410px;
-        width: fit-content;
         margin-top: 34px;
         margin-right: 100px;
-        /* background-repeat: no-repeat;
-        background-image: url('/images/book_bg_odd.png');
-        background-size: auto 100%;
-        background-position: left center; */
+        flex: 1;
+        
     }
     
     .book-journey-title {
