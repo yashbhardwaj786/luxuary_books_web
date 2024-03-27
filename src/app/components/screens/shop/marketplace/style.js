@@ -63,7 +63,7 @@ export const MarketPlaceWrapper = styled.div`
     .marketplace-mobile-list-container {
         display: flex;
         flex-direction: column;
-        margin: 0px 90px 30px 90px;
+        margin: 0px 70px 30px 70px;
     }
 
     .marketplace-container {
