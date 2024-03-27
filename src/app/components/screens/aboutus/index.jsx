@@ -4,11 +4,14 @@ import AuthorImage from './AboutAuthor/index';
 import UseFulLinkPage from './usefulllinks/index'
 import OtherInfo from './OtherInfo/index';
 import TestimonialsPage from './testimonials/index';
-
+import noop from 'lodash/noop'
 import { AboutUsData } from '../../../aboutus/aboutus.data';
 import { commonMethod } from '@/app/utils/Utility';
 
-export default function AboutUsLandingPage(){
+export default function AboutUsLandingPage(props){
+    const {
+        learnMoreClick = noop
+      } = props.actions || {}
       const {
         title='', 
         imageUrl = '', 
@@ -23,7 +26,7 @@ export default function AboutUsLandingPage(){
         <AboutUsWrapper>
             <AuthorImage imageUrl={imageUrl} title={title} description={description}/>
             <UseFulLinkPage isMobile={isMobile} usefulLinks={usefulLinks}/>
-            <OtherInfo otherInfo={otherInfo}/>
+            <OtherInfo otherInfo={otherInfo} learnMoreClick={learnMoreClick}/>
             <TestimonialsPage testimonials={testimonials} isMobile={isMobile}/>
 
         </AboutUsWrapper>

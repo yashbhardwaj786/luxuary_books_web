@@ -26,7 +26,7 @@ export const HomeData = {
 				description: "Joash Pundit - a science journalist. Torn between the past and future, science and mysticism, will he find the answers?",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -36,7 +36,7 @@ export const HomeData = {
 				description: "Krupa, a feisty yogini, lives in a monastery (the Ashram) in the Himalayas.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -46,7 +46,7 @@ export const HomeData = {
 				description: " Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -56,7 +56,7 @@ export const HomeData = {
 				description: "Tejas is the yogini who knows fire, she lives deep in the jungles.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -66,7 +66,7 @@ export const HomeData = {
 				description: "Callum is a bright teenager from Glasgow, with a sunshine smile, he spreads happiness wherever he goes.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -76,7 +76,7 @@ export const HomeData = {
 				description: "Jaggu Baba is an enigma, no one can understand what he really wants.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -86,7 +86,7 @@ export const HomeData = {
 				description: "London reeling with relentless rains, this is where the story starts.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			},
@@ -96,7 +96,7 @@ export const HomeData = {
 				description: "The Himalayas near Jispa.",
 				cta: {
 					text: "View Series",
-					link: "someurltonavigatetheuser"
+					link: "/shop"
 				},
 				backgroundImageUrl: "somebackgroundImageURL"
 			}

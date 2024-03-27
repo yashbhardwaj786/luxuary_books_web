@@ -22,7 +22,7 @@ export default function HomeLandingPage(props) {
         <HomeScreenContainer>
         <BannerContent exploreBookClick={exploreBookClick} bannerData={bannerData}/>
         <AboutBook learnMoreClick={learnMoreClick} aboutBook={aboutBook}/>
-        <BookJourney bookJourney={bookJourney}/>
+        <BookJourney bookJourney={bookJourney} learnMoreClick={learnMoreClick}/>
         </HomeScreenContainer>
     )
 }

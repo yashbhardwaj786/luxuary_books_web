@@ -16,7 +16,7 @@ export default function Home() {
     router.push(url)
   }, [])
   
-  const reorderPageActions = useMemo(() => {
+  const homePageActions = useMemo(() => {
     return {
       learnMoreClick,
       exploreBookClick
@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <HomePageContainer >
-        <HomeLandingPage actions={reorderPageActions}/>
+        <HomeLandingPage actions={homePageActions}/>
       </HomePageContainer>
       <Footer/>
     </>

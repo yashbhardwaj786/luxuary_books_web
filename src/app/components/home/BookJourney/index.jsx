@@ -5,8 +5,12 @@ import BookJourneyEvenItem from './BookJouneyEvenItem/index'
 import BookJourneyEvenComponent from './BookJouneyEvenItemMobile/index'
 import BookJourneyOddComponent from './BookJouneyOddItemMobile/index'
 import { commonMethod } from '../../../utils/Utility'
+import noop from 'lodash/noop'
 
-export default function BookJourney({ bookJourney = [] }) {
+export default function BookJourney({
+    bookJourney = [],
+    learnMoreClick = noop
+}) {
 
     const isMobile = commonMethod();
 
@@ -20,12 +24,12 @@ export default function BookJourney({ bookJourney = [] }) {
                         return (
                             <div key={index}>
                                 {isEven ? (
-                                    <BookJourneyEvenComponent journey={journey}/>
+                                    <BookJourneyEvenComponent journey={journey} learnMoreClick={learnMoreClick}/>
                                 )
-                                :
-                                (
-                                    <BookJourneyOddComponent journey={journey}/>
-                                )}
+                                    :
+                                    (
+                                        <BookJourneyOddComponent journey={journey} learnMoreClick={learnMoreClick}/>
+                                    )}
                             </div>
                         )
                     })}
@@ -38,12 +42,12 @@ export default function BookJourney({ bookJourney = [] }) {
                         return (
                             <div key={index}>
                                 {isEven ? (
-                                    <BookJourneyEvenItem journey={journey}/>
+                                    <BookJourneyEvenItem journey={journey} learnMoreClick={learnMoreClick}/>
                                 )
-                                :
-                                (
-                                    <BookJourneyOddItem journey={journey}/>
-                                )}
+                                    :
+                                    (
+                                        <BookJourneyOddItem journey={journey} learnMoreClick={learnMoreClick}/>
+                                    )}
                             </div>
                         )
                     })}

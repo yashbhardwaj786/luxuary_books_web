@@ -1,57 +1,47 @@
 {
   "pages": {
     "/_not-found": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
       "static/chunks/app/_not-found-ecedbb45e638952b.js"
     ],
     "/layout": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
       "static/chunks/569-3f4f34e7c81948a2.js",
-      "static/css/916760aba704e5e3.css",
-      "static/chunks/app/layout-1c988966a5719cad.js"
+      "static/css/e212d98285cb7a1c.css",
+      "static/chunks/app/layout-85b9112435056139.js"
     ],
     "/page": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
       "static/chunks/569-3f4f34e7c81948a2.js",
       "static/chunks/472-20a433901d530dde.js",
-      "static/chunks/811-dc0235d0b750c4d5.js",
+      "static/chunks/380-0191a764d840b4e8.js",
       "static/chunks/981-01702ea1a89a0d34.js",
       "static/css/d8a1723e3c153159.css",
-      "static/chunks/app/page-e167d9cec8e90bad.js"
-    ],
-    "/bookdetails/page": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
-      "static/chunks/fd9d1056-6c30f73062091cff.js",
-      "static/chunks/864-c43d6ca98b4f3cb3.js",
-      "static/chunks/main-app-17540316be756fa3.js",
-      "static/chunks/569-3f4f34e7c81948a2.js",
-      "static/chunks/472-20a433901d530dde.js",
-      "static/css/d8a1723e3c153159.css",
-      "static/chunks/app/bookdetails/page-176e072d8d465241.js"
+      "static/chunks/app/page-8662d7d5fa0a7616.js"
     ],
     "/aboutus/page": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
       "static/chunks/569-3f4f34e7c81948a2.js",
       "static/chunks/472-20a433901d530dde.js",
-      "static/chunks/811-dc0235d0b750c4d5.js",
+      "static/chunks/380-0191a764d840b4e8.js",
       "static/chunks/981-01702ea1a89a0d34.js",
       "static/css/d8a1723e3c153159.css",
-      "static/chunks/app/aboutus/page-cb1991d863e47ba4.js"
+      "static/chunks/app/aboutus/page-a966a0cfc20b5f10.js"
     ],
     "/contactus/page": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
@@ -61,7 +51,7 @@
       "static/chunks/app/contactus/page-c42feba6539c3321.js"
     ],
     "/shop/page": [
-      "static/chunks/webpack-8584d0ee733fa3fc.js",
+      "static/chunks/webpack-963d71152385ebf2.js",
       "static/chunks/fd9d1056-6c30f73062091cff.js",
       "static/chunks/864-c43d6ca98b4f3cb3.js",
       "static/chunks/main-app-17540316be756fa3.js",
@@ -69,6 +59,16 @@
       "static/chunks/472-20a433901d530dde.js",
       "static/css/d8a1723e3c153159.css",
       "static/chunks/app/shop/page-1fa91f4e57b99e02.js"
+    ],
+    "/bookdetails/page": [
+      "static/chunks/webpack-963d71152385ebf2.js",
+      "static/chunks/fd9d1056-6c30f73062091cff.js",
+      "static/chunks/864-c43d6ca98b4f3cb3.js",
+      "static/chunks/main-app-17540316be756fa3.js",
+      "static/chunks/569-3f4f34e7c81948a2.js",
+      "static/chunks/472-20a433901d530dde.js",
+      "static/css/d8a1723e3c153159.css",
+      "static/chunks/app/bookdetails/page-176e072d8d465241.js"
     ]
   }
 }
