@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import { usePathname } from 'next/navigation';
-import styles from './navbar.module.css';
+import styles from './Navbar.module.css';
 import { commonMethod } from '../../../utils/Utility'
 
 interface NavItemProps {
