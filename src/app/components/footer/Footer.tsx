@@ -10,6 +10,7 @@ import Linkedin from './Linkedin'
 import Insta from './Insta'
 import { Console } from "console";
 import { commonMethod } from '../../utils/Utility'
+import '../../../app/luxarybook.theme.css'
 
 interface NavItemProps {
   href: string; // Explicitly define the type as string
