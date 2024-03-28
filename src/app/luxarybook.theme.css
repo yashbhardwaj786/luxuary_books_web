@@ -12,15 +12,15 @@
 }
 @font-face {
     font-family: 'Gayathri font';
-    src: url('../../public/fonts/gayathri-regular.woff') format('woff');
+    src: url('../../public/fonts/Gayathri-Regular.woff') format('woff');
 }
 @font-face {
     font-family: 'Gayathri font bold';
-    src: url('../../public/fonts/gayathri-bold.woff') format('woff');
+    src: url('../../public/fonts/Gayathri-Bold.woff') format('woff');
 }
 @font-face {
     font-family: 'Gayathri font thin';
-    src: url('../../public/fonts/gayathri-thin.woff') format('woff');
+    src: url('../../public/fonts/Gayathri-Thin.woff') format('woff');
 }
 
 :root {

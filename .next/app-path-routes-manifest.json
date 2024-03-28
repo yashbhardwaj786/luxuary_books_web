@@ -2,8 +2,8 @@
   "/_not-found": "/_not-found",
   "/page": "/",
   "/favicon.ico/route": "/favicon.ico",
-  "/contactus/page": "/contactus",
+  "/aboutus/page": "/aboutus",
   "/bookdetails/page": "/bookdetails",
-  "/shop/page": "/shop",
-  "/aboutus/page": "/aboutus"
+  "/contactus/page": "/contactus",
+  "/shop/page": "/shop"
 }
