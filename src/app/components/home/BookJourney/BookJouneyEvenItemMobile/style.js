@@ -24,13 +24,13 @@ export const BookJourneyEvenItemWrapper = styled.div`
         font-family: 'primary font', sans-serif;
         margin: 0px 67px 0px 67px;
         text-align: center;
-        color: var(--brand-primary-white-color);
+        color: var(--brand-navbar-background-color);
     }
     .book-journey-subtitle {
         font-size: 9px;
         font-family: 'Gayathri font', sans-serif;
         margin: 5px 67px 8px 67px;
-        color: var(--brand-primary-white-color);
+        color: var(--brand-navbar-background-color);
     }
 
     .book-journey-button-container {

@@ -29,7 +29,7 @@ export const BookJourneyOddItemWrapper = styled.div`
         margin-top: 80px;
         margin-right: 25px;
         margin-left: 100px;
-        color: var(--brand-primary-white-color);
+        color: var(--brand-navbar-background-color);
 
     }
     .book-journey-subtitle {
@@ -38,7 +38,7 @@ export const BookJourneyOddItemWrapper = styled.div`
         margin-top: 10px;
         margin-right: 325px;
         margin-left: 100px;
-        color: var(--brand-primary-white-color);
+        color: var(--brand-navbar-background-color);
         margin-bottom: 10px;
     }
 

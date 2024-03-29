@@ -8,7 +8,7 @@ export const ShopData = {
 			bookImageUrl: "./images/book_img.jpeg",
 			title: "Shop",
 			subtitle: "Our Market Place",
-			description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+			description: "This book is available in paperback in all countries except India. India paperback is yet to be released.",
 			cta: {
 				text: "Explore the book",
 				url: "someurltonavigatetheuser"

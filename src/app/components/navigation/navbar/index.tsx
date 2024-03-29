@@ -39,6 +39,9 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </svg>
             </button>
             <ul className="hidden md:flex gap-x-16">
+              <NavItem href="/" isactive={pathname === '/'}>
+                Home
+              </NavItem>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
                 About Us
               </NavItem>

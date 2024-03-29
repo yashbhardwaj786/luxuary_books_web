@@ -9,28 +9,20 @@ export const ContactusData = {
 		faqs: [
 			{
 				question: "How Can I Get a Signed Book?",
-				answer: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec ipsum non ante tincidunt suscipit vel non libero."
+				answer: "In shop page there are different marketplaces, from where you can get this book."
 			},
 			{
-				question: "1914 translation by H. Rackham?",
-				answer: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec ipsum non ante tincidunt suscipit vel non libero."
+				question: "Is this book available in India?",
+				answer: "This book is availabel in paperback in all countries except India. India paperback is yet to be released"
 			},
 			{
-				question: "The standard Lorem Ipsum passage, used since the 1500s?",
-				answer: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec ipsum non ante tincidunt suscipit vel non libero."
-			},
-			{
-				question: "written by Cicero in 45 BC?",
-				answer: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec ipsum non ante tincidunt suscipit vel non libero."
-			},
-			{
-				question: "How Can I Get a Signed Book?",
-				answer: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Aenean nec ipsum non ante tincidunt suscipit vel non libero."
+				question: "Should we be able to get this book in ebook format?",
+				answer: "No, this book is available in paperback."
 			}
 		],
 		professionalInquiries: {
 			title: "For Professional Inquiries",
-			email: "support@pages.com"
+			email: "kshamtapurohit@yahoo.co.uk"
 		}
 	}
 }

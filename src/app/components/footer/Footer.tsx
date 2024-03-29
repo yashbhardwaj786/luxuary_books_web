@@ -33,6 +33,11 @@ const Footer = () => {
         {isMobile ? (
           <ul className="sidebar-nav text-center leading-relaxed text-xl">
             <li>
+              <NavItem href="/" isactive={pathname === '/'}>
+                Home
+              </NavItem>
+            </li>
+            <li>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
                 About Us
               </NavItem>
@@ -52,6 +57,11 @@ const Footer = () => {
 
           : (
             <ul className="hidden md:flex">
+              <li>
+              <NavItem href="/" isactive={pathname === '/'}>
+                Home
+              </NavItem>
+            </li>
               <li>
                 <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
                   About Us
