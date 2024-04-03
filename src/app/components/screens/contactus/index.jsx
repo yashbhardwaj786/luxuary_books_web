@@ -1,6 +1,6 @@
 import React from "react";
 import { ContactUsWrapper } from './style';
-import AuthorImage from './AboutAuthor/index';
+import AuthorImage from './AboutBook/index'
 import ProfessionalInquiriesWrapper from './professionalInquaries/index';
 import SendMessge from './sendmessage/index';
 import FAQs from './faqs/index';

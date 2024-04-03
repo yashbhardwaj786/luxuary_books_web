@@ -20,7 +20,7 @@ export default function BookJourneyEvenItem({
             <div className="book-details-container">
                 <label className="book-journey-title">{title}</label>
                 <label className="book-journey-subtitle">{description}</label>
-                <div className="book-journey-button-container"
+                 <div className="book-journey-button-container"
                 onClick={(event) => {
                     event.preventDefault()
                     event.stopPropagation()

@@ -13,7 +13,7 @@ export default function ProfessionalInquiries({ professionalInquiries = {} }) {
         <ProfessionalInquiriesWrapper>
             <label className="title-text"> {title} </label>
             <div className="details-inquiries">
-                <label className="details-inquiries-text">Drop us :</label>
+                <label className="details-inquiries-text">Drop us a line :</label>
                 <label className="details-inquiries-value">{email}</label>
             </div>
         </ProfessionalInquiriesWrapper>

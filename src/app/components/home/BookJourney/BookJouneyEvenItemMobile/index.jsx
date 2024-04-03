@@ -27,7 +27,7 @@ export default function BookJourneyEvenComponent({
                 handleClick(link)
             }}>
                     <label className="book-journey-button-text">{text}</label>
-                </div>
+                </div> 
         </BookJourneyEvenItemWrapper>
     )
 }

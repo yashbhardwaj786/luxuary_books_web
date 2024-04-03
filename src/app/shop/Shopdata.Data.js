@@ -8,7 +8,7 @@ export const ShopData = {
 			bookImageUrl: "./images/book_img.jpeg",
 			title: "Shop",
 			subtitle: "Our Market Place",
-			description: "This book is available in paperback in all countries except India. India paperback is yet to be released.",
+			description: "This book is available in paperback in all countries including in India. India Paperback released in India on 1st January.",
 			cta: {
 				text: "Explore the book",
 				url: "someurltonavigatetheuser"

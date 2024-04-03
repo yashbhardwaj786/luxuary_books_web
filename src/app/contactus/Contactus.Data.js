@@ -4,16 +4,16 @@ export const ContactusData = {
 	message: "",
 	result: {
 		title: "Get in Touch",
-		imageUrl: "autherImageUrl",
+		imageUrl: "./images/book_img.jpeg",
 		description: "We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers. You can connect with us with these details.",
 		faqs: [
 			{
 				question: "How Can I Get a Signed Book?",
-				answer: "In shop page there are different marketplaces, from where you can get this book."
+				answer: "By emailing us. Or contacting Bookworm book store Bengaluru India."
 			},
 			{
 				question: "Is this book available in India?",
-				answer: "This book is availabel in paperback in all countries except India. India paperback is yet to be released"
+				answer: "The book is available as ebook on all major platforms."
 			},
 			{
 				question: "Should we be able to get this book in ebook format?",

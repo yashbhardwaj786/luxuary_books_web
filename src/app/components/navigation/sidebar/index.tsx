@@ -48,6 +48,9 @@ const Sidebar = ({
           </button>
 
           <ul className="sidebar-nav text-center leading-relaxed text-xl">
+              <NavItem href="/" isactive={pathname === '/'} toggle={toggle}>
+                Home
+              </NavItem>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'} toggle={toggle}>
                 About Us
               </NavItem>
