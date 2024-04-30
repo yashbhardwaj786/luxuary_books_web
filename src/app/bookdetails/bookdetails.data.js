@@ -11,10 +11,7 @@ export const BookDetailsData = {
 			words: [
 				{
 					term: "Sangam" ,
-					meaning: `It means 'meeting' or 'crossing' or 'point of crossing'. As a child, on a trip
-					to the Himalayas, I remember learning about a place where two rivers were crossing.
-					That spot was called the ‘Sangam of…’ In the book, it signifies the crossing of
-					different realms.`
+					meaning: `A meeting, a crossing or a point of crossing.`
 				},
 				{
 					term: "Tirtha" ,
@@ -43,7 +40,7 @@ export const BookDetailsData = {
 				},
 				{
 					term: "Sheersha" ,
-					meaning: `It is highest or supreme.`
+					meaning: `Highest or supreme`
 				},
 				{
 					term: "Maha" ,
@@ -51,7 +48,7 @@ export const BookDetailsData = {
 				},
 				{
 					term: "Moksha" ,
-					meaning: `It is nirvana or enlightenment.`
+					meaning: `Nirvana or enlightenment`
 				},
 				{
 					term: "Roga" ,

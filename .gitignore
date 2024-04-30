@@ -3,7 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 **/node_modules
-/.next
 /.pnp
 .pnp.js
 # User-specific files

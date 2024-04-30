@@ -13,7 +13,7 @@ export default function BookJourneyOddItem({
     const handleClick = useCallback((link) => {
         learnMoreClick(link)
     }, []);
-
+    console.log('hh yashal odd')
     return (
         <BookJourneyOddItemWrapper>
 

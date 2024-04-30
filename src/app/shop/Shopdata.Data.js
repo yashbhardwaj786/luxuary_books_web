@@ -21,7 +21,7 @@ export const ShopData = {
 		book: [
 			{
 				bookId: 1001,
-				bookName: "Karma Sagas - The Sangam: 1",
+				bookName: "Karma Sagas - The Sangam",
 			}
 		]
 	}

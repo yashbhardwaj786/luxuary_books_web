@@ -43,13 +43,13 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 Home
               </NavItem>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
-                About Us
+              About author
               </NavItem>
               <NavItem href="/shop" isactive={pathname === '/shop'}>
                 Shop
               </NavItem>
               <NavItem href="/contactus" isactive={pathname === '/contactus'}>
-                Contact Us
+                Author contact
               </NavItem>
             </ul>
           </div>

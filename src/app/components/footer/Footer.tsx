@@ -39,7 +39,7 @@ const Footer = () => {
             </li>
             <li>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
-                About Us
+              About author
               </NavItem>
             </li>
             <li>
@@ -49,7 +49,7 @@ const Footer = () => {
             </li>
             <li>
               <NavItem href="/contactus" isactive={pathname === '/contactus'}>
-                Contact Us
+                Author contact
               </NavItem>
             </li>
           </ul>
@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
               <li>
                 <NavItem href="/aboutus" isactive={pathname === '/aboutus'}>
-                  About Us
+                About author
                 </NavItem>
               </li>
               <li>
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <NavItem href="/contactus" isactive={pathname === '/contactus'}>
-                  Contact Us
+                  Author contact
                 </NavItem>
               </li>
 

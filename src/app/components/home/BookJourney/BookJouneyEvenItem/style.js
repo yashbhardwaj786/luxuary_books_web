@@ -9,7 +9,7 @@ export const BookJourneyEvenItemWrapper = styled.div`
     background-position: right center;
 
     .book-item-image {
-        height: 300px;
+        height: auto;
         width: 237px;
         margin-top: 121px;
     }

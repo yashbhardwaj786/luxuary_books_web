@@ -52,13 +52,13 @@ const Sidebar = ({
                 Home
               </NavItem>
               <NavItem href="/aboutus" isactive={pathname === '/aboutus'} toggle={toggle}>
-                About Us
+               About author
               </NavItem>
               <NavItem href="/shop" isactive={pathname === '/shop'} toggle={toggle}>
                 Shop
               </NavItem>
               <NavItem href="/contactus" isactive={pathname === '/contactus'} toggle={toggle}>
-                Contact Us
+                Author contact
               </NavItem>
           </ul>
         </div>

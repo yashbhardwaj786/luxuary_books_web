@@ -43,7 +43,7 @@ export const HomeData = {
 			{
 				bookImageUrl: "/images/Swamiji.png",
 				title: "Swamiji",
-				description: " Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
+				description: "Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
 				cta: {
 					text: "Get the book",
 					link: "/shop"
@@ -83,7 +83,7 @@ export const HomeData = {
 			{
 				bookImageUrl: "/images/book_bg_odd.png",
 				title: "London reeling",
-				description: "London reeling with relentless rains, this is where the story starts.",
+				description: "London reeling with relentless rains, this is where the story begins.",
 				cta: {
 					text: "Get the book",
 					link: "/shop"

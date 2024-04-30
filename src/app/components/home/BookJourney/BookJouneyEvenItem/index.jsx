@@ -13,6 +13,7 @@ export default function BookJourneyEvenItem({
     const handleClick = useCallback((link) => {
         learnMoreClick(link)
     }, []);
+    console.log('hh yashal even item')
     return (
         <BookJourneyEvenItemWrapper>
             <img className="book-item-image" src={bookImageUrl} />
