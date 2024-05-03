@@ -11,17 +11,16 @@ export const AuthorImageWrapper =  styled.div`
     
     .bg-circle-container{
         display: flex;
-        margin: 30px 8px 30px 8px;
+        margin: 20px 8px 30px 0px;
+        height: auto;
+        width: 100vw;
+        justify-content: center;
     }
     
 
     .bg-author-image{
-        z-index: 99;
-        position: absolute;
         height: 237px;
-        width: 209px;
-        margin-top: -50px;
-        margin-left: -6px;
+        width: 220px;
     }
 
     .title-text {
@@ -44,16 +43,11 @@ export const AuthorImageWrapper =  styled.div`
         
         .bg-circle-container{
             display: flex;
-            margin: 50px 0px 26px;
+            margin: 26px 0px 26px 0px;
         }
         .bg-author-image{
-            z-index: 99;
-            position: absolute;
-            height: auto; 
+            height: 430px; 
             width: 380px;
-            margin-top: -160px;
-            align-self: center;
-            margin-left: -10px;
         }
 
         .title-text {

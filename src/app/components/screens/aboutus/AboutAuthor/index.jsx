@@ -1,6 +1,5 @@
 import React from "react";
 import { AuthorImageWrapper } from './style'
-import ImageCircle from './ImageCircle'
 import { commonMethod } from '../../../../utils/Utility'
 
 export default function AuthorImage({ imageUrl = '', title = '', description = '' }) {
@@ -9,8 +8,7 @@ export default function AuthorImage({ imageUrl = '', title = '', description = '
     return (
         <AuthorImageWrapper>
             <div className="bg-circle-container">
-                <img src="/images/author_img.png" className="bg-author-image" />
-                <ImageCircle ismobile={isMobile} />
+                <img src={imageUrl} className="bg-author-image" />
             </div>
 
             <label className="title-text">{title}</label>

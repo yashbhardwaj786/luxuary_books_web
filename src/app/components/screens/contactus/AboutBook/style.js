@@ -20,7 +20,7 @@ export const AuthorImageWrapper =  styled.div`
 
     .bg-author-image{
         height: 237px;
-        width: 209px;
+        width: 220px;
     }
 
     .title-text {

@@ -285,7 +285,7 @@
     }
 
     
-`;function BookJourneyOddItem({journey:e={},learnMoreClick:o=d()}){let{bookImageUrl:t="",title:r="",description:i="",cta:l={}}=e||{},{text:s="",link:c=""}=l||{},p=(0,a.useCallback)(e=>{o(e)},[]);return console.log("hh yashal odd"),(0,n.jsxs)(x,{children:[(0,n.jsxs)("div",{className:"book-details-container",children:[n.jsx("label",{className:"book-journey-title",children:r}),n.jsx("label",{className:"book-journey-subtitle",children:i}),n.jsx("div",{className:"book-journey-button-container",onClick:e=>{e.preventDefault(),e.stopPropagation(),p(c)},children:n.jsx("label",{className:"book-journey-button-text",children:s})})]}),n.jsx("img",{className:"book-item-image",src:t})]})}let b=i.ZP.div`
+`;function BookJourneyOddItem({journey:e={},learnMoreClick:o=d()}){let{bookImageUrl:t="",title:r="",description:i="",cta:l={}}=e||{},{text:s="",link:c=""}=l||{},p=(0,a.useCallback)(e=>{o(e)},[]);return(0,n.jsxs)(x,{children:[(0,n.jsxs)("div",{className:"book-details-container",children:[n.jsx("label",{className:"book-journey-title",children:r}),n.jsx("label",{className:"book-journey-subtitle",children:i}),n.jsx("div",{className:"book-journey-button-container",onClick:e=>{e.preventDefault(),e.stopPropagation(),p(c)},children:n.jsx("label",{className:"book-journey-button-text",children:s})})]}),n.jsx("img",{className:"book-item-image",src:t})]})}let b=i.ZP.div`
     display: flex;
     margin-left: 126px;
     background-repeat: no-repeat;
@@ -350,7 +350,7 @@
     }
 
     
-`;function BookJourneyEvenItem({journey:e={},learnMoreClick:o=d()}){let{bookImageUrl:t="",title:r="",description:i="",cta:l={}}=e||{},{text:s="",link:c=""}=l||{},p=(0,a.useCallback)(e=>{o(e)},[]);return console.log("hh yashal even item"),(0,n.jsxs)(b,{children:[n.jsx("img",{className:"book-item-image",src:t}),(0,n.jsxs)("div",{className:"book-details-container",children:[n.jsx("label",{className:"book-journey-title",children:r}),n.jsx("label",{className:"book-journey-subtitle",children:i}),n.jsx("div",{className:"book-journey-button-container",onClick:e=>{e.preventDefault(),e.stopPropagation(),p(c)},children:n.jsx("label",{className:"book-journey-button-text",children:s})})]})]})}let h=i.ZP.div`
+`;function BookJourneyEvenItem({journey:e={},learnMoreClick:o=d()}){let{bookImageUrl:t="",title:r="",description:i="",cta:l={}}=e||{},{text:s="",link:c=""}=l||{},p=(0,a.useCallback)(e=>{o(e)},[]);return(0,n.jsxs)(b,{children:[n.jsx("img",{className:"book-item-image",src:t}),(0,n.jsxs)("div",{className:"book-details-container",children:[n.jsx("label",{className:"book-journey-title",children:r}),n.jsx("label",{className:"book-journey-subtitle",children:i}),n.jsx("div",{className:"book-journey-button-container",onClick:e=>{e.preventDefault(),e.stopPropagation(),p(c)},children:n.jsx("label",{className:"book-journey-button-text",children:s})})]})]})}let h=i.ZP.div`
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -466,4 +466,4 @@
     display: flex;
     flex-direction: column;
 
-`;var v=t(7114),C=t(2142);function Home(){let e=(0,v.useRouter)(),o=(0,a.useCallback)(o=>{e.push(o)},[]),t=(0,a.useCallback)(o=>{e.push(o)},[]),r=(0,a.useMemo)(()=>({learnMoreClick:o,exploreBookClick:t}),[o,t]);return(0,n.jsxs)(n.Fragment,{children:[n.jsx(j,{children:n.jsx(HomeLandingPage,{actions:r})}),n.jsx(C.Z,{})]})}},6768:(e,o,t)=>{"use strict";t.r(o),t.d(o,{$$typeof:()=>i,__esModule:()=>r,default:()=>s});var n=t(7536);let a=(0,n.createProxy)(String.raw`/Users/yashbhardwaj/Documents/luxuary_books_web/src/app/page.tsx`),{__esModule:r,$$typeof:i}=a,l=a.default,s=l}};var o=require("../webpack-runtime.js");o.C(e);var __webpack_exec__=e=>o(o.s=e),t=o.X(0,[879,104,405,529,168,763],()=>__webpack_exec__(7796));module.exports=t})();
+`;var v=t(7114),C=t(2142);function Home(){let e=(0,v.useRouter)(),o=(0,a.useCallback)(o=>{e.push(o)},[]),t=(0,a.useCallback)(o=>{e.push(o)},[]),r=(0,a.useMemo)(()=>({learnMoreClick:o,exploreBookClick:t}),[o,t]);return(0,n.jsxs)(n.Fragment,{children:[n.jsx(j,{children:n.jsx(HomeLandingPage,{actions:r})}),n.jsx(C.Z,{})]})}},6768:(e,o,t)=>{"use strict";t.r(o),t.d(o,{$$typeof:()=>i,__esModule:()=>r,default:()=>s});var n=t(7536);let a=(0,n.createProxy)(String.raw`/Users/yashbhardwaj/Documents/luxuary_books_web/src/app/page.tsx`),{__esModule:r,$$typeof:i}=a,l=a.default,s=l}};var o=require("../webpack-runtime.js");o.C(e);var __webpack_exec__=e=>o(o.s=e),t=o.X(0,[879,104,405,30,168,763],()=>__webpack_exec__(7796));module.exports=t})();

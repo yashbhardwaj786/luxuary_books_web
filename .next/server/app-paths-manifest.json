@@ -2,8 +2,8 @@
   "/_not-found": "app/_not-found.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/bookdetails/page": "app/bookdetails/page.js",
   "/aboutus/page": "app/aboutus/page.js",
   "/contactus/page": "app/contactus/page.js",
-  "/bookdetails/page": "app/bookdetails/page.js",
   "/shop/page": "app/shop/page.js"
 }
