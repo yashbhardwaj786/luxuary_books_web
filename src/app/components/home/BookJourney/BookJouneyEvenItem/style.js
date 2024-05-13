@@ -41,28 +41,5 @@ export const BookJourneyEvenItemWrapper = styled.div`
         color: var(--brand-navbar-background-color);
         margin-bottom: 10px;
     }
-
-    .book-journey-button-container {
-        display: flex;
-        height: 49px;
-        width: 243px;
-        border-radius: 24.5px;
-        background-color: var(--brand-yellow-color);
-        margin-top: 10px;
-        margin-left: 25px;
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-    }
-    .book-journey-button-text {
-        font-size: 16px;
-        margin-top: 18px;
-        margin-bottom: 17px;
-        cursor: pointer;
-        font-family: 'primary font bold', sans-serif;
-        color: var(--brand-navbar-background-color);
-
-    }
-
     
 `;

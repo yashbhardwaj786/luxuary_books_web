@@ -26,7 +26,6 @@ export default function AboutUsLandingPage(props){
         <AboutUsWrapper>
             <AuthorImage imageUrl={imageUrl} title={title} description={description}/>
             <UseFulLinkPage isMobile={isMobile} usefulLinks={usefulLinks}/>
-            <OtherInfo otherInfo={otherInfo} learnMoreClick={learnMoreClick}/>
             <TestimonialsPage testimonials={testimonials} isMobile={isMobile}/>
 
         </AboutUsWrapper>

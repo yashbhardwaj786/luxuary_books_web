@@ -3,11 +3,12 @@ export const HomeData = {
 	success: true,
 	message: "",
 	result: {
+		bannerWelcome: "Welcome! Here you can learn a bit more about Kshamta and her first novel.",
 		bannerData: [
 			{
 				bookImage: '/images/book_image.jpg',
 				cta: {
-					text: "Explore the book",
+					text: "The Story",
 					link: "/bookdetails?bookName=${encodeURIComponent('Karma Sagas The Sangam: 1')}"
 				}
 			}
@@ -19,87 +20,62 @@ export const HomeData = {
 				link: "/aboutus"
 			}
 		},
-		bookJourney: [
-			{
-				bookImageUrl: "/images/joash_pundit.jpeg",
-				title: "Joash Pundit",
-				description: "Joash Pundit - a science journalist. Torn between the past and future, science and mysticism, will he find the answers?",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
-				},
-				backgroundImageUrl: "somebackgroundImageURL"
+		bookJourney: {
+			headerText: "The Characters and places",
+			cta: {
+				text: "Get the book",
+				link: "/shop"
 			},
-			{
-				bookImageUrl: "/images/Krupa.png",
-				title: "Krupa",
-				description: "Krupa, a feisty yogini, lives in a monastery (the Ashram) in the Himalayas.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+			characters: [
+				{
+					bookImageUrl: "/images/joash_pundit.jpeg",
+					title: "Joash Pundit",
+					description: "Joash Pundit - a science journalist. Torn between the past and future, science and mysticism, will he find the answers?",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/Swamiji.png",
-				title: "Swamiji",
-				description: "Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/Krupa.png",
+					title: "Krupa",
+					description: "Krupa, a feisty yogini, lives in a monastery (the Ashram) in the Himalayas.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/tejas.png",
-				title: "Tejas",
-				description: "Tejas is the yogini who knows fire, she lives deep in the jungles.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/Swamiji.png",
+					title: "Swamiji",
+					description: "Swamiji is Krupa's spiritual teacher and the head of the Ashram.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/Callum_Bailey.png",
-				title: "Callum",
-				description: "Callum is a bright teenager from Glasgow, with a sunshine smile, he spreads happiness wherever he goes.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/tejas.png",
+					title: "Tejas",
+					description: "Tejas is the yogini who knows fire, she lives deep in the jungles.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/Jaggu_baba.webp",
-				title: "Jaggu Baba",
-				description: "Jaggu Baba is an enigma, no one can understand what he really wants.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/Callum_Bailey.png",
+					title: "Callum",
+					description: "Callum is a bright teenager from Glasgow, with a sunshine smile, he spreads happiness wherever he goes.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/book_bg_odd.png",
-				title: "London reeling",
-				description: "London reeling with relentless rains, this is where the story begins.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/Jaggu_baba.webp",
+					title: "Jaggu Baba",
+					description: "Jaggu Baba is an enigma, no one can understand what he really wants.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			},
-			{
-				bookImageUrl: "/images/book_bg_even.webp",
-				title: "The Himalayas",
-				description: "The Himalayas near Jispa.",
-				cta: {
-					text: "Get the book",
-					link: "/shop"
+				{
+					bookImageUrl: "/images/book_bg_odd.png",
+					title: "London reeling",
+					description: "London reeling with relentless rains, this is where the story begins.",
+					backgroundImageUrl: "somebackgroundImageURL"
 				},
-				backgroundImageUrl: "somebackgroundImageURL"
-			}
-		]
+				{
+					bookImageUrl: "/images/book_bg_even.webp",
+					title: "The Himalayas",
+					description: "The Himalayas near Jispa.",
+					backgroundImageUrl: "somebackgroundImageURL"
+				}
+			]
+		},
 	}
 }

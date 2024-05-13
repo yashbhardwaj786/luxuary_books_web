@@ -7,6 +7,7 @@ import noop from 'lodash/noop'
 
 export default function BannerContent({
     bannerData = [],
+    bannerWelcome = "",
     exploreBookClick = noop,
     }) {
 
@@ -19,6 +20,8 @@ export default function BannerContent({
     return (
 
         <StyledHappyCustomerWrapper>
+
+            <label className="banner-content-welcome-text">{bannerWelcome}</label>
             {
                 isMobile ? (
                 <CustomCarousel scrollWidth={1} scrollDuration={100}>

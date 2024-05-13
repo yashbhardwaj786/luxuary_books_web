@@ -8,12 +8,28 @@ export const StyledHappyCustomerWrapper = styled.div`
   background-repeat: no-repeat;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  padding-top: 10px;
+
+  .banner-content-welcome-text {
+    font-size: 10px;
+    margin: 15px 15px 0px 15px;
+    line-height: 16px;
+    text-align: center;
+    font-family: 'primary font bold', sans-serif;
+    color: var(--brand-primary-white-color);
+  }
 
   @media (min-width: 768px) {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     background-image: url('/images/homepage_bg.png');
+
+    .banner-content-welcome-text {
+      font-size: 20px;
+      margin: 30px 30px 0px 30px;
+      line-height: 32px;
+    }
   }
 
 `;
@@ -34,7 +50,7 @@ export const ItemContainer = styled.div`
       height: 161px;
       align-items: center;
       justify-content: center;
-      margin-top: 50px;
+      margin-top: 20px;
     }
     .book-title {
       color: var(--book-title-color);

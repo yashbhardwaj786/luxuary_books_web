@@ -13,14 +13,16 @@ export default function HomeLandingPage(props) {
         exploreBookClick = noop,
       } = props.actions || {}
       const {
+        bannerWelcome = "",
         bannerData=[], 
         aboutBook = {}, 
-        bookJourney = []
+        bookJourney = {}
     } = HomeData.result
+
     return (
 
         <HomeScreenContainer>
-        <BannerContent exploreBookClick={exploreBookClick} bannerData={bannerData}/>
+        <BannerContent exploreBookClick={exploreBookClick} bannerData={bannerData} bannerWelcome={bannerWelcome}/>
         <AboutBook learnMoreClick={learnMoreClick} aboutBook={aboutBook}/>
         <BookJourney bookJourney={bookJourney} learnMoreClick={learnMoreClick}/>
         </HomeScreenContainer>
