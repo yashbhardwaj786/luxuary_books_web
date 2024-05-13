@@ -79,9 +79,9 @@ export const ItemContainer = styled.div`
     .button-container {
       display: flex;
       background: var(--brand-navbar-background-color);
-      width: 119px;
       border-radius: 24.5px;
-      padding: 8px 0px;
+      padding: 8px 20px;
+      align-items: center;
       margin: 8px 0px 15px;
       cursor: pointer;
     }
@@ -90,7 +90,6 @@ export const ItemContainer = styled.div`
       color: var(--brand-yellow-color);
       font-size: 8px;
       text-align: center;
-      margin-left: 16px;
       font-family: 'primary font bold', sans-serif;
       cursor: pointer;
     }
@@ -124,7 +123,6 @@ export const ItemContainer = styled.div`
       }
 
       .button-container {
-        width: 243px;
         padding: 17px 34px;
         margin: 18px 0px 0px;
       }

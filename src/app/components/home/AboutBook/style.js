@@ -32,7 +32,6 @@ export const AboutBookContainer = styled.div`
         padding-top: 7px;
         padding-left: 25px;
         padding-right: 25px;
-        width: 96px;
         align-self: center;
         margin-bottom: 23px;
         margin-top: 7px;
@@ -68,7 +67,6 @@ export const AboutBookContainer = styled.div`
             padding-top: 18px;
             padding-left: 64px;
             padding-right: 64px;
-            width: 243px;
             margin-bottom: 60px;
         }
         .button-text-aboutbook {
