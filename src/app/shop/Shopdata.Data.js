@@ -5,7 +5,7 @@ export const ShopData = {
 	message: "",
 	result: {
 		bannerData: {
-			bookImageUrl: "./images/book_img.jpeg",
+			bookImageUrl: "./images/book_img.webp",
 			title: "Shop",
 			subtitle: "Our Market Place",
 			description: "This book is available in paperback in all countries including in India. India Paperback released in India on 1st January.",

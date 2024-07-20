@@ -7,7 +7,7 @@ export const MarketPlaceData = {
         marketPlace: [
             {
                 marketPlaceName: "Amazon",
-                marketPlaceImage: "./images/amazon_logo.png",
+                marketPlaceImage: "./images/amazon_logo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -17,7 +17,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "Apple Books (iTunes)",
-                marketPlaceImage: "./images/apple_book_logo.png",
+                marketPlaceImage: "./images/apple_book_logo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -27,7 +27,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "Barnes & Noble",
-                marketPlaceImage: "./images/Barnes-Noble-Logo.png",
+                marketPlaceImage: "./images/Barnes-Noble-Logo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -37,7 +37,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "Kobo",
-                marketPlaceImage: "./images/rakuten-kobo.png",
+                marketPlaceImage: "./images/rakuten-kobo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -47,7 +47,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "Scribd",
-                marketPlaceImage: "./images/everand_logo.png",
+                marketPlaceImage: "./images/everand_logo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -57,7 +57,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "Storytel",
-                marketPlaceImage: "./images/storytel.png",
+                marketPlaceImage: "./images/storytel.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -67,7 +67,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "24symbols.com",
-                marketPlaceImage: "./images/twentyfour-symbol.png",
+                marketPlaceImage: "./images/twentyfour-symbol.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {
@@ -77,7 +77,7 @@ export const MarketPlaceData = {
             },
             {
                 marketPlaceName: "overdrive.com",
-                marketPlaceImage: "./images/company-od-logo.png",
+                marketPlaceImage: "./images/company-od-logo.webp",
                 bookTitle: "The Sangam",
                 bookDescription: "Welcome to a world where the power of the mind is everything – a world of extraordinary yogis, scientists, and enhanced humans – a world ravaged by climate change. Welcome to the world of Karam Sagas – The Sangam.",
                 cta: {

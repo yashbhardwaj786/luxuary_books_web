@@ -4,7 +4,7 @@ export const BookJourneyEvenItemWrapper = styled.div`
     display: flex;
     margin-left: 126px;
     background-repeat: no-repeat;
-    background-image: url('/images/character_bg.png');
+    background-image: url('/images/character_bg.webp');
     background-size: auto 100%;
     background-position: right center;
 

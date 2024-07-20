@@ -7,7 +7,7 @@ export const BookJourneyOddItemWrapper = styled.div`
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-    background-image: url('/images/character_bg.png');
+    background-image: url('/images/character_bg.webp');
     background-position: left center;
     align-items: center; /* Vertically center items */
     justify-content: center; /* Horizontally center items */

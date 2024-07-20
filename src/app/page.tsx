@@ -1,5 +1,6 @@
 'use client'
 import '../app/luxarybook.theme.css'
+import "./globals.css";
 import React, { useCallback, useMemo } from "react";
 import HomeLandingPage from './components/home/index'
 import { HomePageContainer } from './home.page'

@@ -1,6 +1,8 @@
 'use client';
 import React, { useCallback, useMemo } from "react";
 import '../../app/luxarybook.theme.css'
+import "../../app/globals.css";
+
 import Footer from '../components/footer/Footer';
 import ShopLandingPage from '../components/screens/shop/index'
 import { ShopPageContainer } from './shop.page'

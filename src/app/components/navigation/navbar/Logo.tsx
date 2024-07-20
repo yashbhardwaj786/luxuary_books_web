@@ -41,12 +41,12 @@ const Logo = ({
 
         {isMobile ? (
           <img className="image"
-          src='/images/logo1.png'
+          src='/images/logo1.webp'
           alt="Logo"
           style={{width: '128px', height: '35px'}}/>
         ) : (
         <img className="image"
-          src='/images/logo1.png'
+          src='/images/logo1.webp'
           alt="Logo"
           style={{width: '322px', height: '51px'}}/>
         )}

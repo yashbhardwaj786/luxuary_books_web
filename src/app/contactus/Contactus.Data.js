@@ -4,7 +4,7 @@ export const ContactusData = {
 	message: "",
 	result: {
 		title: "Get in Touch",
-		imageUrl: "./images/book_img.jpeg",
+		imageUrl: "./images/book_img.webp",
 		description: "We believe that readers and authors should be able to connect. Please fill in the form below if you wish to get in touch.",
 		faqs: [
 			{

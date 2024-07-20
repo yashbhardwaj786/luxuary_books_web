@@ -24,7 +24,7 @@ export default function AboutBook({
             </div>
             <div className="text-container">
                 <img className="image"
-                    src='/images/logo1.png'
+                    src='/images/logo1.webp'
                     alt="Logo" />
                 <div className="button-container-aboutbook" onClick={() => handleClick(link)}>
                     <label className="button-text-aboutbook">{text}</label>

@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <StyledFooter>
        <img className="image"
-        src='/images/logo1.png'
+        src='/images/logo1.webp'
         alt="Logo" />
       <div className='option-container'>
 
