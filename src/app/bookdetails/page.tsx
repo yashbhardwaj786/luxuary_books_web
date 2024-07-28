@@ -1,7 +1,5 @@
 'use client'
 import React from "react";
-import '../../app/luxarybook.theme.css'
-import "../../app/globals.css";
 import BookDetailsLandingPage from '../components/screens/bookdetails/index'
 import Footer from '../components/footer/Footer';
 

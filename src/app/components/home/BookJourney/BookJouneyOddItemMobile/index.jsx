@@ -10,7 +10,7 @@ export default function BookJourneyOddComponent({
     return (
         <BookJourneyOddItemWrapper>
 
-            <img src={bookImageUrl} className='book-item-image' />
+            <img loading="lazy" src={bookImageUrl} className='book-item-image' />
             <label className="book-journey-title">{title}</label>
             <label className="book-journey-subtitle">{description}</label>
         </BookJourneyOddItemWrapper>

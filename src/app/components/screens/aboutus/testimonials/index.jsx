@@ -25,7 +25,7 @@ export default function TestimonialsPage({ testimonials = {}, isMobile = false, 
 
                                     <RatingStar isMobile={isMobile} rating={rating}/>
                                     <div className="text-container">
-                                        <img src="./images/shape_quotes_mobile.svg" className="quote-image" />
+                                        <img loading="lazy" src="./images/shape_quotes_mobile.svg" className="quote-image" />
                                         <label className="review-title">{description}</label>
                                     </div>
                                     <div className="user-info-container">
@@ -53,7 +53,7 @@ export default function TestimonialsPage({ testimonials = {}, isMobile = false, 
 
                                     <RatingStar isMobile={isMobile} rating={rating}/>
                                     <div className="text-container">
-                                        <img src="./images/shape_quotes.svg" className="quote-image" />
+                                        <img loading="lazy" src="./images/shape_quotes.svg" className="quote-image" />
                                         <label className="review-title">{description}</label>
                                     </div>
                                     <div className="user-info-container">

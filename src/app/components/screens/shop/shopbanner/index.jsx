@@ -13,7 +13,7 @@ export default function ShopBannerPage({bannerData = {}}) {
                     <label className='shop-banner-description'>{description}</label>
                 </div>
                 <div className='banner-image-container'>
-                    <img src={bookImageUrl} className='banner-image' alt='Book Shop Image'/>
+                    <img src={bookImageUrl} className='banner-image' alt='Book Shop Image' loading="lazy"/>
                 </div>
             </ShopBannerWrapper>
         </div>

@@ -75,7 +75,7 @@ export default function ShowMarketPlace({
                         const { title = '', marketPlaceUrl = '' } = cta || {}
                         return (
                             <div key={index}  className='marketplace-container'>
-                                <img src={marketPlaceImage} alt={bookTitle} className='marketplace-image' />
+                                <img loading="lazy" src={marketPlaceImage} alt={bookTitle} className='marketplace-image' />
                                 <hr className='line-seprator' />
                                 <label className='book-title-text'>{bookTitle}</label>
                                 <label className='book-description-text'>{bookDescription}</label>
@@ -107,7 +107,7 @@ export default function ShowMarketPlace({
                         const { title = '', marketPlaceUrl = '' } = cta || {}
                         return (
                             <div key={index} className="grid-item">
-                                <img src={marketPlaceImage} alt={bookTitle} className='marketplace-image' />
+                                <img loading="lazy" src={marketPlaceImage} alt={bookTitle} className='marketplace-image' />
                                 <hr className='line-seprator' />
                                 <label className='book-title-text'>{bookTitle}</label>
                                 <label className='book-description-text'>{bookDescription}</label>

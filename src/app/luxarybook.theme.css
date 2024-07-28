@@ -1,28 +1,33 @@
 @font-face {
     font-family: 'primary font';
     src: url('../../public/fonts/pertili.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'primary font light2';
     src: url('../../public/fonts/perpetuatitlingmt-light2.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'primary font bold';
     src: url('../../public/fonts/perti-bold.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gayathri font';
     src: url('../../public/fonts/Gayathri-Regular.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gayathri font bold';
     src: url('../../public/fonts/Gayathri-Bold.woff') format('woff');
+    font-display: swap;
 }
 @font-face {
     font-family: 'Gayathri font thin';
     src: url('../../public/fonts/Gayathri-Thin.woff') format('woff');
+    font-display: swap;
 }
-
 :root {
     --brand-font-family: 'Perpetua Titling MT';
 

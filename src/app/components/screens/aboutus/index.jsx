@@ -2,7 +2,6 @@ import React from "react";
 import { AboutUsWrapper } from './style';
 import AuthorImage from './AboutAuthor/index';
 import UseFulLinkPage from './usefulllinks/index'
-import OtherInfo from './OtherInfo/index';
 import TestimonialsPage from './testimonials/index';
 import noop from 'lodash/noop'
 import { AboutUsData } from '../../../aboutus/aboutus.data';

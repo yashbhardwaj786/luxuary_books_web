@@ -8,7 +8,7 @@ export default function AuthorImage({ imageUrl = '', title = '', description = '
     return (
         <AuthorImageWrapper>
             <div className="bg-circle-container">
-                <img src={imageUrl} className="bg-author-image" />
+                <img loading="lazy" src={imageUrl} className="bg-author-image" loading="lazy"/>
             </div>
 
             <label className="title-text">{title}</label>

@@ -70,7 +70,7 @@ const CustomCarousel = (props) => {
       renderSvgArrows ? (
         <NextArrow className="icon-arrow" />
       ) : (
-        <img src={iconR} alt="arrow right" className="icon-arrow" />
+        <img loading="lazy" src={iconR} alt="arrow right" className="icon-arrow" />
       ),
     [iconR, renderSvgArrows]
   )
@@ -80,7 +80,7 @@ const CustomCarousel = (props) => {
       renderSvgArrows ? (
         <PrevArrow className="icon-arrow" />
       ) : (
-        <img src={iconL} alt="arrow left" className="icon-arrow" />
+        <img loading="lazy" src={iconL} alt="arrow left" className="icon-arrow" />
       ),
     [iconL, renderSvgArrows]
   )

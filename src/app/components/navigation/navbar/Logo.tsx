@@ -40,12 +40,12 @@ const Logo = ({
       <Link href="/" style={{ display: showButton ? "none" : "block" }}>
 
         {isMobile ? (
-          <img className="image"
+          <img loading="lazy" className="image"
           src='/images/logo1.webp'
           alt="Logo"
           style={{width: '128px', height: '35px'}}/>
         ) : (
-        <img className="image"
+        <img loading="lazy" className="image"
           src='/images/logo1.webp'
           alt="Logo"
           style={{width: '322px', height: '51px'}}/>

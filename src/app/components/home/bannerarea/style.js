@@ -66,7 +66,7 @@ export const ItemContainer = styled.div`
       font-size: 16px;
       line-height: 19.53px;
       font-family: 'Gayathri font', sans-serif;
-      font-weight: var(--brand-font-weight-roman);
+      /* font-weight: var(--brand-font-weight-roman); */
       margin-top: 10px;
       text-align: center;
       text-transform: capitalize;
@@ -96,6 +96,7 @@ export const ItemContainer = styled.div`
 
     @media (min-width: 768px) {
       padding: 50px; 
+
 
       .book__img img {
         align-items: center;

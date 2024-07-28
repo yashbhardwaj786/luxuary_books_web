@@ -23,7 +23,7 @@ export default function AboutBook({
                 <LeftBook ismobile={isMobile} />
             </div>
             <div className="text-container">
-                <img className="image"
+                <img loading="lazy" className="image"
                     src='/images/logo1.webp'
                     alt="Logo" />
                 <div className="button-container-aboutbook" onClick={() => handleClick(link)}>

@@ -16,7 +16,7 @@ export default function BookJourneyOddItem({
                 <label className="book-journey-subtitle">{description}</label>
             </div>
 
-            <img className="book-item-image" src={bookImageUrl} />
+            <img loading="lazy" className="book-item-image" src={bookImageUrl} />
 
         </BookJourneyOddItemWrapper>
     )

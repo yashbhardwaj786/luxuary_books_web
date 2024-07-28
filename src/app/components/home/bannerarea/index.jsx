@@ -32,7 +32,7 @@ export default function BannerContent({
                             return (
                                 <ItemContainer key={index}>
                                     <div className="book__img">
-                                        <img src={bookImage} alt="book-image" />
+                                        <img loading="eager" src={bookImage} alt="book-image" />
                                     </div>
                                     <div className="button-container" 
                                     onClick={(event) => {
@@ -57,7 +57,7 @@ export default function BannerContent({
                             return (
                                 <ItemContainer key={index}>
                                     <div className="book__img">
-                                        <img src={bookImage} alt="luxary-book" />
+                                        <img src={bookImage} alt="luxary-book"  loading="eager"/>
                                     </div>
                                     <label className="book-title">{title}</label>
                                     <label className="book-subtitle">{description}</label>

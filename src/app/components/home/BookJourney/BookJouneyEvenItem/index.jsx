@@ -10,7 +10,7 @@ export default function BookJourneyEvenItem({
    
     return (
         <BookJourneyEvenItemWrapper>
-            <img className="book-item-image" src={bookImageUrl} />
+            <img loading="lazy" className="book-item-image" src={bookImageUrl} />
 
             <div className="book-details-container">
                 <label className="book-journey-title">{title}</label>

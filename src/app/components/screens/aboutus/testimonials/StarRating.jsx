@@ -4,11 +4,11 @@ import React from 'react';
 const Star = ({ filled, isMobile }) => {
   return (
     <>
-      {isMobile ? (<img
+      {isMobile ? (<img loading="lazy" 
         src={filled ? './images/FilledStarMobile.svg' : './images/EmptyStarMobile.svg'}
         alt={filled ? 'Filled Star' : 'Empty Star'}
         style={{ display: 'inline-block' }}
-      />) : (<img
+      />) : (<img loading="lazy" 
         src={filled ? './images/FilledStar.svg' : './images/EmptyStar.svg'}
         alt={filled ? 'Filled Star' : 'Empty Star'}
         style={{ display: 'inline-block' }}
